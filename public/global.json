@@ -49,7 +49,8 @@
     "test-parser-errors",
     "test-randomization",
     "test-skip-logic",
-    "test-step-logic"
+    "test-step-logic",
+    "pa-chatbot_thinkaloud"
   ],
   "configs": {
     "tutorial": {
@@ -223,6 +224,9 @@
     "example-VLAT-adaptive": {
       "path": "example-VLAT-adaptive/config.json",
       "test": true
-    }
+    },
+  "pa-chatbot_thinkaloud": {
+    "path": "pa-chatbot_thinkaloud/config.json"
+  }
   }
 }
