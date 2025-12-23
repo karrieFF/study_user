@@ -1,0 +1,164 @@
+{
+    "$schema": "https://raw.githubusercontent.com/revisit-studies/study/v2.3.1/src/parser/StudyConfigSchema.json",
+    "studyMetadata": {
+      "title": "Think-Aloud Study: Chatbot App Evaluation Study",
+      "version": "1.0.0",
+      "authors": ["Lingyi Fu"],
+      "date": "2025-01-XX",
+      "description": "A think-aloud usability study to evaluate a chatbot app for promoting physical activity",
+      "organizations": ["University of Utah"]
+    },
+    "uiConfig": {
+      "contactEmail": "Lingyi.Fu@utah.edu",
+      "helpTextPath": "pa-chatbot_thinkaloud/assets/help.md",
+      "logoPath": "revisitAssets/revisitLogoSquare.svg",
+      "withProgressBar": true,
+      "autoDownloadStudy": false,
+      "withSidebar": true,
+      "enumerateQuestions": true,
+      "recordScreen": true,
+      "recordAudio": true,
+      "recordScreenFPS": 30,
+      "windowEventDebounceTime": 200
+    },
+    "importedLibraries": [
+      "screen-recording",
+      "nasa-tlx",
+      "sus",
+      "my-surveys"
+    ],
+    "components": {
+      "Introduction": {
+        "type": "markdown",
+        "path": "pa-chatbot_thinkaloud/assets/introduction.md",
+        "response": []
+      }, 
+      "ThinkAloudInstructions": {
+        "type": "markdown",
+        "path": "pa-chatbot_thinkaloud/assets/thinkaloud-instructions.md",
+        "response": []
+      },
+      "Warm-up": {
+        "type": "markdown",
+        "path": "pa-chatbot_thinkaloud/assets/Warm-up.md",
+        "response": []
+      },
+      "Task1_scenario": {
+        "type": "markdown",
+        "path": "pa-chatbot_thinkaloud/assets/task1-chatbotapp.md",
+        "response": []
+      },
+      "Task1_chatbotapp": {
+        "type": "website",
+        "path": "https://move-chat-sync.onrender.com",
+        "description": "Task: C",
+        "instruction": "Please complete the task while thinking aloud. Describe what you're doing and what you're thinking as you interact with the chatbot.",
+        "recordAudio": true,
+        "recordScreen": true,
+        "response": [
+          {
+            "id": "task1-completed",
+            "prompt": "Did you successfully complete the task?",
+            "type": "radio",
+            "location": "sidebar",
+            "options": [
+              "Yes, completely",
+              "Yes, partially",
+              "No, but I tried",
+              "No, I couldn't figure it out"
+            ],
+            "required": true
+          },
+          {
+            "id": "task1-difficulty",
+            "prompt": "How difficult was this task?",
+            "type": "likert",
+            "location": "sidebar",
+            "numItems": 7,
+            "leftLabel": "Very easy",
+            "rightLabel": "Very difficult",
+            "required": true
+          },
+          {
+            "id": "task1-time", 
+            "prompt": "Approximately how long did this task take? (in minutes)",
+            "type": "numerical",
+            "location": "sidebar",
+            "min": 0,
+            "max": 60,
+            "required": true
+          }
+        ]
+      },
+      "Task2_scenario": {
+        "type": "markdown",
+        "path": "pa-chatbot_thinkaloud/assets/task2-chatbotapp.md",
+        "response": []
+      },
+      "Task2_chatbotapp": {
+        "type": "website",
+        "path": "https://move-chat-sync.onrender.com",
+        "description": "Task 2: Find information",
+        "instruction": "Please complete the task while thinking aloud. Describe what you're doing and what you're thinking as you interact with the chatbot.",
+        "recordAudio": true,
+        "recordScreen": true,
+        "response": [
+          {
+            "id": "task2-completed",
+            "prompt": "Did you successfully complete the task?",
+            "type": "radio",
+            "location": "sidebar",
+            "options": [
+              "Yes, completely",
+              "Yes, partially",
+              "No, but I tried",
+              "No, I couldn't figure it out"
+            ],
+            "required": true
+          },
+          {
+            "id": "task2-difficulty",
+            "prompt": "How difficult was this task?",
+            "type": "likert",
+            "location": "sidebar",
+            "numItems": 7,
+            "leftLabel": "Very easy",
+            "rightLabel": "Very difficult",
+            "required": true
+          },
+          {
+            "id": "task2-time",
+            "prompt": "Approximately how long did this task take? (in minutes)",
+            "type": "numerical",
+            "location": "sidebar",
+            "min": 0,
+            "max": 60,
+            "required": true
+          }
+        ]
+      },
+      "ThankYou": {
+        "type": "markdown",
+        "path": "pa-chatbot_thinkaloud/assets/thankyou.md",
+        "response": []
+      }
+    },
+    "sequence": {
+      "order": "fixed",  
+      "components": [
+        "Introduction",
+        "ThinkAloudInstructions",
+        "$screen-recording.co.screenRecordingPermission",
+        "Warm-up",
+        "Task1_scenario",
+        "Task1_chatbotapp",
+        "$my-surveys.components.ChatbotApp",
+        "$my-surveys.components.PostQuestionnaire1",
+        "Task2_scenario",
+        "Task2_chatbotapp",
+        "$my-surveys.components.PostQuestionnaire1",
+        "$nasa-tlx.co.nasa-tlx",
+        "ThankYou"
+      ]
+    }
+  }

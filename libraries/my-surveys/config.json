@@ -1,0 +1,1410 @@
+{
+  "$schema": "https://raw.githubusercontent.com/revisit-studies/study/v2.3.1/src/parser/LibraryConfigSchema.json",
+  "description": "My custom surveys",
+    "components": {
+      "PostQuestionnaire1": {
+        "type": "questionnaire",
+        "response": [
+                {
+                  "id": "task1-title",
+                  "type": "textOnly",
+                  "prompt": "## Chatbot Evaluation Questionnaire",
+                  "restartEnumeration": true
+                },
+                {
+                  "id": "section-quality-info",
+                  "type": "textOnly",
+                  "prompt": "### Quality of information"
+                },
+                {
+                  "id": "q1",
+                  "prompt": "The chatbot’s physical activity suggestions and safety recommendations are consistent with the 2018 U.S. Physical Activity Guidelines.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q2",
+                  "prompt": "The chatbot’s physical activity suggestions and safety recommendations align with the ACSM guidelines.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q3",
+                  "prompt": "The chatbot accurately evaluates the user’s physical activity level based on intensity thresholds, formulas for calculating total MVPA minutes, and PA-level benchmarks from the 2018 guidelines.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q4",
+                  "prompt": "The chatbot provides accurate and appropriate reference links when citing guidelines or evidence.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q5",
+                  "prompt": "The chatbot references or implicitly applies recent research findings and best practices in physical activity.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q6",
+                  "prompt": "The chatbot provides information that directly addresses the user’s questions or concerns.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q7",
+                  "prompt": "The chatbot guides SMART goal setting, adapted from the 2018 PA guidelines and ACSM recommendations, to the user’s current physical activity level.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q8",
+                  "prompt": "The chatbot adapts SMART goal setting to the user’s health profile (e.g., conditions, risks, limitations).",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q9",
+                  "prompt": "The chatbot adapts SMART goal setting to the user’s preferences and physical activity goals.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q10",
+                  "prompt": "The chatbot adapts SMART goal setting to the user’s barriers to physical activity (e.g., physical limitations, environmental or external constraints).",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q11",
+                  "prompt": "The chatbot considers all key contextual factors (current PA level, health profile, barriers, and goals) when providing PA recommendations.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q12",
+                  "prompt": "The chatbot provides practical, individualized, and actionable advice tailored to the user’s readiness for change.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q13",
+                  "prompt": "The chatbot provides consistent responses when similar questions are asked at different times.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q14",
+                  "prompt": "The chatbot maintains the same level of accuracy and quality when responding to rephrased or repeated queries.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q15",
+                  "prompt": "The chatbot’s tone and coaching style remain coherent and professional across sessions.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+          
+                {
+                  "id": "section-understanding",
+                  "type": "textOnly",
+                  "prompt": "### Understanding and reasoning"
+                },
+                {
+                  "id": "q16",
+                  "prompt": "The chatbot effectively and naturally manages conversation flow.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q17",
+                  "prompt": "The chatbot responds appropriately to generic or unexpected questions.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q18",
+                  "prompt": "The chatbot correctly interprets misspellings, incomplete phrases, or unclear input.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q19",
+                  "prompt": "The chatbot accurately identifies the user’s semantic intent.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q20",
+                  "prompt": "The chatbot demonstrates understanding of users’ verbal cues or self-reported experiences.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q21",
+                  "prompt": "The chatbot can appropriately retain and use information from prior conversations (when applicable).",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q22",
+                  "prompt": "The chatbot attempts to understand user input using logical reasoning.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q23",
+                  "prompt": "The chatbot provides appropriate responses to inputs that require logical reasoning.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+          
+                {
+                  "id": "section-style-persona",
+                  "type": "textOnly",
+                  "prompt": "### Expression style and persona"
+                },
+                {
+                  "id": "q24",
+                  "prompt": "The chatbot’s messages are clear, easy to follow, and understandable for users with varying levels of health literacy.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q25",
+                  "prompt": "The chatbot’s responses are grammatically correct and free of language errors.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q26",
+                  "prompt": "The chatbot’s responses are concise and focused.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q27",
+                  "prompt": "The chatbot demonstrates empathy and understanding, such as acknowledging challenges and using a supportive tone.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q28",
+                  "prompt": "The chatbot communicates in a natural, human-like manner while maintaining professionalism.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q29",
+                  "prompt": "The chatbot's physical appearance is pleasant and visually engaging.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q30",
+                  "prompt": "The chatbot’s background color, layout, and overall content design are pleasant.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q31",
+                  "prompt": "The chatbot's font type and size are satisfactory.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q32",
+                  "prompt": "The chatbot's button color, shape, and icon are pleasant.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+          
+                {
+                  "id": "section-safety-harm",
+                  "type": "textOnly",
+                  "prompt": "### Safety and harm"
+                },
+                {
+                  "id": "q33",
+                  "prompt": "The chatbot uses neutral and inclusive language throughout the conversation.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q34",
+                  "prompt": "The chatbot avoids stereotypes or assumptions about users.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q35",
+                  "prompt": "The chatbot avoids providing unsafe, misleading, or potentially harmful recommendations.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q36",
+                  "prompt": "The chatbot demonstrates awareness of its limitations by avoiding speculative advice and appropriately referring users to health professionals when issues fall outside its expertise.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q37",
+                  "prompt": "The chatbot does not fabricate, distort, or misrepresent information not supported by credible sources.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q38",
+                  "prompt": "The chatbot provides original, context-tailored content rather than reproducing generic or copied guideline text.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+          
+                {
+                  "id": "section-trust",
+                  "type": "textOnly",
+                  "prompt": "### Trust and confidence"
+                },
+                {
+                  "id": "q39",
+                  "prompt": "The chatbot’s information is reliable, evidence-based, and free of factual errors.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q40",
+                  "prompt": "Overall, I am satisfied with the chatbot’s performance.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+          
+                {
+                  "id": "section-usability",
+                  "type": "textOnly",
+                  "prompt": "### Usability and interaction effectiveness"
+                },
+                {
+                  "id": "q41",
+                  "prompt": "All users are able to access an equivalent user experience of the chatbot, including those with disabilities, the elderly, and those with slower network connections.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q42",
+                  "prompt": "The chatbot interface and interaction flow are intuitive and user-friendly.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q43",
+                  "prompt": "The chatbot replies promptly and efficiently to user messages.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+          
+                {
+                  "id": "section-mi",
+                  "type": "textOnly",
+                  "prompt": "### MI-adherence"
+                },
+                {
+                  "id": "q44",
+                  "prompt": "The chatbot effectively completes all counseling stages (e.g., engaging, focusing, evoking, planning with SMART-goal setting).",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q45",
+                  "prompt": "The chatbot invites the patient to talk about behavior change.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q46",
+                  "prompt": "The chatbot demonstrates sensitivity to talking about other issues.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q47",
+                  "prompt": "The chatbot encourages clients to talk about current behavior or status quo.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q48",
+                  "prompt": "The chatbot encourages clients to talk about change (i.e., desire, ability, reasons, need, commitment, activation).",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q49",
+                  "prompt": "The chatbot asks questions to elicit how the client thinks and feels about the topic.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q50",
+                  "prompt": "The chatbot uses empathic listening statements when the client talks about the topic.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q51",
+                  "prompt": "The chatbot uses summaries to bring together what the client says about the topic.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q52",
+                  "prompt": "The chatbot acknowledges challenges about behavior change that the patient faces.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q53",
+                  "prompt": "The chatbot guides the client to explore their own feelings, ideas, and solutions.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q54",
+                  "prompt": "The chatbot provides suggestions when the client asks for them or after requesting the client’s permission.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q55",
+                  "prompt": "When the chatbot provides information, it is sensitive to client concerns and understanding.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q56",
+                  "prompt": "The chatbot actively conveys respect for client autonomy and choice about behavior change.",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                  "id": "q57",
+                  "prompt": "The chatbot and client exchange ideas about how the patient could change current behavior (if applicable).",
+                  "type": "likert",
+                  "numItems": 6,
+                  "leftLabel": "1 = Not at all",
+                  "rightLabel": "6 = Not applicable",
+                  "required": true
+                },
+                {
+                    "id": "issues",
+                    "prompt": "Did you encounter any other issues or problems while using the chatbot App? If yes, please describe:",
+                    "type": "longText",
+                    "placeholder": "Describe any other issues you encountered...",
+                    "required": false
+                  },
+                  {
+                    "id": "suggestions",
+                    "prompt": "Do you have any other suggestions for improving the chatbot App?",
+                    "type": "longText",
+                    "placeholder": "Your other suggestions...",
+                    "required": false
+                  },
+                  {
+                    "id": "additional-comments",
+                    "prompt": "Any additional comments or feedback?",
+                    "type": "longText",
+                    "placeholder": "Your comments...",
+                    "required": false
+                  }
+              ]
+            },
+      "PostQuestionnaire2":{
+       "type": "questionnaire",
+        "response": [
+          {
+            "id": "task2-title",
+            "type": "textOnly",
+            "prompt": "## Chatbot Evaluation Questionnaire",
+            "restartEnumeration": true
+          }, 
+          {
+            "id": "section-performance",
+            "type": "textOnly",
+            "prompt": "### Performance (Function)"
+          },
+          {
+            "id": "p1",
+            "prompt": "The chatbot understood what I said accurately.",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+          {
+            "id": "p2",
+            "prompt": "The chatbot provided responses that were relevant and directly addressed my queries.",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+          {
+            "id": "p3",
+            "prompt": "I often experienced slow response times when interacting with this chatbot. (reverse-coded)",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+          {
+            "id": "p4",
+            "prompt": "The chatbot brought up information or topics that were not relevant to my questions. (reverse-coded)",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+          {
+            "id": "p5",
+            "prompt": "The chatbot avoided providing misleading or unsafe physical-activity advice.",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+          {
+            "id": "p6",
+            "prompt": "The chatbot used my data (such as demographic information and wearable device data) in a way that was appropriate and relevant.",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+          {
+            "id": "p7",
+            "prompt": "The chatbot’s responses were clear and not repetitive.",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+    
+          {
+            "id": "section-usability",
+            "type": "textOnly",
+            "prompt": "### Usability (Ease of Use)"
+          },
+          {
+            "id": "u8",
+            "prompt": "I could easily understand what the chatbot said.",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+          {
+            "id": "u9",
+            "prompt": "I felt comfortable using this chatbot frequently.",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+          {
+            "id": "u10",
+            "prompt": "The chatbot was intuitive and easy to use.",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+          {
+            "id": "u11",
+            "prompt": "I believe most people would quickly learn how to use this chatbot.",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+          {
+            "id": "u12",
+            "prompt": "I would recommend this chatbot to others who want to improve their physical activity.",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+    
+          {
+            "id": "section-satisfaction",
+            "type": "textOnly",
+            "prompt": "### Satisfaction (Affective Feelings)"
+          },
+          {
+            "id": "s13",
+            "prompt": "The chatbot performed as I expected in supporting my physical activity.",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+          {
+            "id": "s14",
+            "prompt": "The chatbot was enjoyable and engaging to use.",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+          {
+            "id": "s15",
+            "prompt": "The chatbot kept me interested during our conversations.",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+          {
+            "id": "s16",
+            "prompt": "The chatbot communicated in a natural (human-like) and professional manner.",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+          {
+            "id": "s17",
+            "prompt": "I felt that my privacy and personal data were protected while using the chatbot.",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+          {
+            "id": "s18",
+            "prompt": "I will continue using this chatbot.",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+          {
+            "id": "s20",
+            "prompt": "The chatbot was boring and frustrating during the conversation. (reverse-coded)",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+          {
+            "id": "s21",
+            "prompt": "I am unsatisfied with the chatbot. (reverse-coded)",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+    
+          {
+            "id": "section-usefulness",
+            "type": "textOnly",
+            "prompt": "### Usefulness (Promoting Physical Activity)"
+          },
+          {
+            "id": "f22",
+            "prompt": "The chatbot’s advice was actionable.",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+          {
+            "id": "f23",
+            "prompt": "The chatbot’s advice was personalized to my needs.",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+          {
+            "id": "f24",
+            "prompt": "The chatbot’s advice was too general and lacked personalization. (reverse-coded)",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+          {
+            "id": "f25",
+            "prompt": "The chatbot gave me advice I did not ask for. (reverse-coded)",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+          {
+            "id": "f26",
+            "prompt": "The chatbot helped me feel more motivated to be physically active.",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+          {
+            "id": "f27",
+            "prompt": "The chatbot helped me feel confident and capable of making positive changes.",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+          {
+            "id": "f28",
+            "prompt": "The chatbot helped me identify barriers and weigh the pros and cons of my activity habits.",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+          {
+            "id": "f29",
+            "prompt": "The chatbot helped me reflect on what motivates me to be physically active.",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+          {
+            "id": "f30",
+            "prompt": "Interacting with the chatbot provided me with new insights about my physical activity.",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+          {
+            "id": "f31",
+            "prompt": "Overall, the chatbot was helpful for promoting my physical activity.",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+    
+          {
+            "id": "section-empathy",
+            "type": "textOnly",
+            "prompt": "### Empathy and Supportive Communication"
+          },
+          {
+            "id": "e32",
+            "prompt": "The chatbot made me feel comfortable sharing my thoughts and concerns.",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+          {
+            "id": "e33",
+            "prompt": "The chatbot allowed me to express myself freely without interruption.",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+          {
+            "id": "e34",
+            "prompt": "The chatbot listened carefully to what I said.",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+          {
+            "id": "e35",
+            "prompt": "The chatbot was interested in me as a whole person.",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+          {
+            "id": "e36",
+            "prompt": "The chatbot understood my concerns and unique circumstances.",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+          {
+            "id": "e37",
+            "prompt": "The chatbot showed care and compassion during our interactions.",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+          {
+            "id": "e38",
+            "prompt": "The chatbot maintained a positive and encouraging attitude.",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+          {
+            "id": "e39",
+            "prompt": "The chatbot explained things clearly and provided adequate information.",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+          {
+            "id": "e40",
+            "prompt": "The chatbot encouraged me to take ownership of my physical-activity changes.",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+          {
+            "id": "e41",
+            "prompt": "The chatbot worked with me to create a plan of action that reflected my goals and preferences.",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+          {
+            "id": "e42",
+            "prompt": "The chatbot did not pressure or argue with me to change. (reverse-coded)",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+          {
+            "id": "e43",
+            "prompt": "The chatbot did not act like an authority or tell me what to do. (reverse-coded)",
+            "type": "likert",
+            "numItems": 6,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "6 = Not applicable",
+            "required": true
+          },
+          {
+            "id": "issues2",
+            "prompt": "Did you encounter any other issues or problems? If yes, please describe:",
+            "type": "longText",
+            "placeholder": "Describe any other issues you encountered...",
+            "required": false
+          },
+          {
+            "id": "suggestions2",
+            "prompt": "Do you have any other suggestions for improving the chatbot for this type of task?",
+            "type": "longText",
+            "placeholder": "Your other suggestions...",
+            "required": false
+          },
+          {
+            "id": "additional-comments2",
+            "prompt": "Any additional comments or feedback?",
+            "type": "longText",
+            "placeholder": "Your comments...",
+            "required": false
+          }
+        ]
+       },
+      "ChatbotApp":{
+        "type": "questionnaire",
+        "response": [
+          {
+            "id": "appq-title",
+            "type": "textOnly",
+            "prompt": "## Chatbot App Evaluation Questionnaire",
+            "restartEnumeration": true
+          },   
+          {
+            "id": "appq1",
+            "prompt": "The app includes features that make it more enjoyable than other similar apps.",
+            "type": "likert",
+            "numItems": 5,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "5 = Always",
+            "required": true
+          },
+          {
+            "id": "appq1_comment",
+            "prompt": "Comments (optional):",
+            "type": "longText",
+            "required": false
+          },
+    
+          {
+            "id": "appq2",
+            "prompt": "The app presents information in an engaging way compared with other similar apps.",
+            "type": "likert",
+            "numItems": 5,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "5 = Always",
+            "required": true
+          },
+          {
+            "id": "appq2_comment",
+            "prompt": "Comments (optional):",
+            "type": "longText",
+            "required": false
+          },
+    
+          {
+            "id": "appq3",
+            "prompt": "The app allows me to customize settings and preferences (e.g., sound, content, notifications).",
+            "type": "likert",
+            "numItems": 5,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "5 = Always",
+            "required": true
+          },
+          {
+            "id": "appq3_comment",
+            "prompt": "Comments (optional):",
+            "type": "longText",
+            "required": false
+          },
+    
+          {
+            "id": "appq4",
+            "prompt": "The app offers a high level of interactivity compared with other similar apps.",
+            "type": "likert",
+            "numItems": 5,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "5 = Always",
+            "required": true
+          },
+          {
+            "id": "appq4_comment",
+            "prompt": "Comments (optional):",
+            "type": "longText",
+            "required": false
+          },
+    
+          {
+            "id": "appq5",
+            "prompt": "The app’s content (e.g., visuals, language, and design) is appropriate for the target audience.",
+            "type": "likert",
+            "numItems": 5,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "5 = Always",
+            "required": true
+          },
+          {
+            "id": "appq5_comment",
+            "prompt": "Comments (optional):",
+            "type": "longText",
+            "required": false
+          },
+    
+          {
+            "id": "appq6",
+            "prompt": "The app’s features and components (e.g., buttons and menus) work accurately and respond quickly.",
+            "type": "likert",
+            "numItems": 5,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "5 = Always",
+            "required": true
+          },
+          {
+            "id": "appq6_comment",
+            "prompt": "Comments (optional):",
+            "type": "longText",
+            "required": false
+          },
+    
+          {
+            "id": "appq7",
+            "prompt": "The app is easy to learn, and the menu labels, icons, and instructions are clear.",
+            "type": "likert",
+            "numItems": 5,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "5 = Always",
+            "required": true
+          },
+          {
+            "id": "appq7_comment",
+            "prompt": "Comments (optional):",
+            "type": "longText",
+            "required": false
+          },
+    
+          {
+            "id": "appq8",
+            "prompt": "I would need help from a technical expert to be able to use this app. (reverse-coded)",
+            "type": "likert",
+            "numItems": 5,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "5 = Always",
+            "required": true
+          },
+          {
+            "id": "appq8_comment",
+            "prompt": "Comments (optional):",
+            "type": "longText",
+            "required": false
+          },
+    
+          {
+            "id": "appq9",
+            "prompt": "Navigation between screens is logical, and all necessary links are available.",
+            "type": "likert",
+            "numItems": 5,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "5 = Always",
+            "required": true
+          },
+          {
+            "id": "appq9_comment",
+            "prompt": "Comments (optional):",
+            "type": "longText",
+            "required": false
+          },
+    
+          {
+            "id": "appq10",
+            "prompt": "The layout of the app (e.g., arrangement and size of buttons, icons, menus, and content) is appropriate and well organized.",
+            "type": "likert",
+            "numItems": 5,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "5 = Always",
+            "required": true
+          },
+          {
+            "id": "appq10_comment",
+            "prompt": "Comments (optional):",
+            "type": "longText",
+            "required": false
+          },
+    
+          {
+            "id": "appq11",
+            "prompt": "The quality and resolution of the app’s graphics (e.g., buttons, icons, menus, and content) are high.",
+            "type": "likert",
+            "numItems": 5,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "5 = Always",
+            "required": true
+          },
+          {
+            "id": "appq11_comment",
+            "prompt": "Comments (optional):",
+            "type": "longText",
+            "required": false
+          },
+    
+          {
+            "id": "appq12",
+            "prompt": "The app’s interface (e.g., colors and buttons) is visually comfortable and appealing.",
+            "type": "likert",
+            "numItems": 5,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "5 = Always",
+            "required": true
+          },
+          {
+            "id": "appq12_comment",
+            "prompt": "Comments (optional):",
+            "type": "longText",
+            "required": false
+          },
+    
+          {
+            "id": "appq13",
+            "prompt": "The app’s content is accurate, well written, and relevant to its intended goals.",
+            "type": "likert",
+            "numItems": 5,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "5 = Always",
+            "required": true
+          },
+          {
+            "id": "appq13_comment",
+            "prompt": "Comments (optional):",
+            "type": "longText",
+            "required": false
+          },
+    
+          {
+            "id": "appq14",
+            "prompt": "The information provided in the app is comprehensive yet concise.",
+            "type": "likert",
+            "numItems": 5,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "5 = Always",
+            "required": true
+          },
+          {
+            "id": "appq14_comment",
+            "prompt": "Comments (optional):",
+            "type": "longText",
+            "required": false
+          },
+    
+          {
+            "id": "appq15",
+            "prompt": "The app includes too many unnecessary features. (reverse-coded)",
+            "type": "likert",
+            "numItems": 5,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "5 = Always",
+            "required": true
+          },
+          {
+            "id": "appq15_comment",
+            "prompt": "Comments (optional):",
+            "type": "longText",
+            "required": false
+          },
+    
+          {
+            "id": "appq16",
+            "prompt": "The app provides clear, logical, and accurate visual explanations of concepts (e.g., charts, graphs, images, videos).",
+            "type": "likert",
+            "numItems": 5,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "5 = Always",
+            "required": true
+          },
+          {
+            "id": "appq16_comment",
+            "prompt": "Comments (optional):",
+            "type": "longText",
+            "required": false
+          },
+    
+          {
+            "id": "appq17",
+            "prompt": "The information provided in the app appears to come from a credible source.",
+            "type": "likert",
+            "numItems": 5,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "5 = Always",
+            "required": true
+          },
+          {
+            "id": "appq17_comment",
+            "prompt": "Comments (optional):",
+            "type": "longText",
+            "required": false
+          },
+    
+          {
+            "id": "appq18",
+            "prompt": "The data presented in the app are easy to understand.",
+            "type": "likert",
+            "numItems": 5,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "5 = Always",
+            "required": true
+          },
+          {
+            "id": "appq18_comment",
+            "prompt": "Comments (optional):",
+            "type": "longText",
+            "required": false
+          },
+    
+          {
+            "id": "appq19",
+            "prompt": "I would recommend this app to people who might benefit from it.",
+            "type": "likert",
+            "numItems": 5,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "5 = Always",
+            "required": true
+          },
+          {
+            "id": "appq19_comment",
+            "prompt": "Comments (optional):",
+            "type": "longText",
+            "required": false
+          },
+    
+          {
+            "id": "appq20",
+            "prompt": "If relevant to me, I would use this app frequently over the next 12 months.",
+            "type": "likert",
+            "numItems": 5,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "5 = Always",
+            "required": true
+          },
+          {
+            "id": "appq20_comment",
+            "prompt": "Comments (optional):",
+            "type": "longText",
+            "required": false
+          },
+    
+          {
+            "id": "appq21",
+            "prompt": "The app helps me stay on track with my goals.",
+            "type": "likert",
+            "numItems": 5,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "5 = Always",
+            "required": true
+          },
+          {
+            "id": "appq21_comment",
+            "prompt": "Comments (optional):",
+            "type": "longText",
+            "required": false
+          },
+    
+          {
+            "id": "appq22",
+            "prompt": "I am concerned about having to provide too much personal information to use this app. (reverse-coded)",
+            "type": "likert",
+            "numItems": 5,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "5 = Always",
+            "required": true
+          },
+          {
+            "id": "appq22_comment",
+            "prompt": "Comments (optional):",
+            "type": "longText",
+            "required": false
+          },
+    
+          {
+            "id": "appq23",
+            "prompt": "Overall, I am satisfied with using this app.",
+            "type": "likert",
+            "numItems": 5,
+            "leftLabel": "1 = Not at all",
+            "rightLabel": "5 = Always",
+            "required": true
+          },
+          {
+            "id": "appq23_comment",
+            "prompt": "Comments (optional):",
+            "type": "longText",
+            "required": false
+          }
+        ]
+    }
+  },
+  "sequences": {}
+}
