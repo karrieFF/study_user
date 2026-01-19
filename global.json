@@ -225,7 +225,7 @@
       "path": "example-VLAT-adaptive/config.json",
       "test": true
     },
-  "pa-chatbot_thinkaloud": {
+    "pa-chatbot_thinkaloud": {
     "path": "pa-chatbot_thinkaloud/config.json"
   }
   }
