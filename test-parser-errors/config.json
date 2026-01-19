@@ -23,7 +23,7 @@
     "withSidebar": true,
     "windowEventDebounceTime": 200
   },
-  "importedLibraries": ["test", "test-missing"],
+  "importedLibraries": ["test"],
   "baseComponents": {
     "testBaseComponent": {
       "type": "markdown",
@@ -96,7 +96,6 @@
       "$test.se.long",
       "$test.components.test-md",
       "$test.co.test-react",
-      "$test.components.test-missing",
       "missingBaseComponent",
       "workingBaseComponentFromLibrary",
       "missingComponentFromLibrary"
