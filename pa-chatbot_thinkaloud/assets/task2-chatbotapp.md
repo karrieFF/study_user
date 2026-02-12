@@ -1,12 +1,11 @@
 # Task 2: Conversation 2
 
 ## Scenario
-Please imagine that you are a user with low motivation who is seeking help from a chatbot coach to improve your physical activity.
+Please imagine that you are a sedentary person seeking help from a coach to improve your physical activity.
 
 ## Your Task
-1. Log in to the app.
-2. Briefly explore each page of the app.
-3. Talk with the chatbot based on your own experience.
+1. Switch to coachH on the coach page.
+2. Talk with CoachH using the same scenario you used when talking with first coach.
 
 ## Instructions
 - Take your time - there's no rush
