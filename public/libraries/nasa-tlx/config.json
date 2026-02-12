@@ -196,6 +196,7 @@
       "description": "The NASA-TLX questionnaire.",
       "type": "markdown",
       "path": "libraries/nasa-tlx/assets/tlx.md",
+      "withSidebar": false,
       "response": [
         {
           "id": "mental-demand",

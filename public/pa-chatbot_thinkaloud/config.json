@@ -90,6 +90,14 @@
           }
         ]
       },
+      "Survey1": {
+        "type": "website",
+        "path": "https://redcap01.brisc.utah.edu/ccts/redcap/surveys/index.php?s=yiuwJQRL8FHZgYhz&__prevpage=1",
+        "recordAudio": true,
+        "recordScreen": true,
+        "withSidebar": false,
+        "response":[]
+      },
       "Task2_scenario": {
         "type": "markdown",
         "path": "pa-chatbot_thinkaloud/assets/task2-chatbotapp.md",
@@ -137,6 +145,14 @@
           }
         ]
       },
+      "Survey2": {
+        "type": "website",
+        "path": "https://redcap01.brisc.utah.edu/ccts/redcap/surveys/index.php?s=yiuwJQRL8FHZgYhz&__prevpage=1",
+        "recordAudio": true,
+        "recordScreen": true,
+        "withSidebar": false,
+        "response":[]
+      },
       "ThankYou": {
         "type": "markdown",
         "path": "pa-chatbot_thinkaloud/assets/thankyou.md",
@@ -152,11 +168,10 @@
         "Warm-up",
         "Task1_scenario",
         "Task1_chatbotapp",
-        "$my-surveys.components.ChatbotApp",
-        "$my-surveys.components.PostQuestionnaire1",
+        "Survey1",
         "Task2_scenario",
         "Task2_chatbotapp",
-        "$my-surveys.components.PostQuestionnaire1",
+        "Survey2",
         "$nasa-tlx.co.nasa-tlx",
         "ThankYou"
       ]

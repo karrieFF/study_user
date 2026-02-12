@@ -1,28 +1,12 @@
 # Task 1: Conversation 1
 
 ## Scenario
-Please imagine that you are the person described below who wants to use the app and seek professional support to improve your physical activity.
-
-*   **Age/Gender/Ethnicity:** 62-year-old male, White
-*   **Location:** Rural (Montana)
-*   **Physical Activity Level:** Lightly active (~90 minutes per week)
-    *   Chores around his property, occasional fishing trips
-*   **Occupation:** Retired construction worker
-*   **Health Profile:** Overweight, history of smoking, borderline COPD
-*   **Physical Limitations:** Shortness of breath during exertion; limited flexibility
-*   **Goals:**
-    *   Improve lung function and overall endurance
-    *   Lose 10–15 pounds to ease joint pressure
-    *   Stay active enough to keep up with grandchildren
-*   **Challenges:**
-    *   Limited access to fitness facilities nearby
-    *   Discomfort exercising in cold winters
-    *   Feels self-conscious starting structured exercise at his age
+Please imagine that you are a sedentary person seeking help from a coach to improve your physical activity.
 
 ## Your Task
 1. Log in to the app.
 2. Briefly explore each page of the app.
-3. Talk with the chatbot based on the information provided above. 
+3. Interact with the coachT based on your personal experience or any scenario you can imagine.
 
 ## Instructions
 - Take your time - there's no rush
