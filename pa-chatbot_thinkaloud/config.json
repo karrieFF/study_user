@@ -98,6 +98,15 @@
         "withSidebar": false,
         "response":[]
       },
+      "RestBreak": {
+        "type": "website",
+        "path": "../timer.html",
+        "description": "20 Minute Rest Break",
+        "instruction": "Please take a 20-minute break before starting the next task.\n\nClick the \"Start\" button to begin the timer.\n\nWhen the timer ends, click the \"Next\" button below to proceed to the next task.",
+        "recordAudio": true,
+        "recordScreen": true,
+        "response":[]
+      },
       "Task2_scenario": {
         "type": "markdown",
         "path": "pa-chatbot_thinkaloud/assets/task2-chatbotapp.md",
@@ -169,6 +178,7 @@
         "Task1_scenario",
         "Task1_chatbotapp",
         "Survey1",
+        "RestBreak",
         "Task2_scenario",
         "Task2_chatbotapp",
         "Survey2",
