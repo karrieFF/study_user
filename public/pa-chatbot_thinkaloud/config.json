@@ -148,14 +148,13 @@
       "components": [
         "Introduction",
         "ThinkAloudInstructions",
-        "$screen-recording.co.screenRecordingPermission",
         "Warm-up",
         "Task1_scenario",
-        "Task1_chatbotapp",
+        "Coach1",
         "$my-surveys.components.ChatbotApp",
         "$my-surveys.components.PostQuestionnaire1",
         "Task2_scenario",
-        "Task2_chatbotapp",
+        "Coach2",
         "$my-surveys.components.PostQuestionnaire1",
         "$nasa-tlx.co.nasa-tlx",
         "ThankYou"
