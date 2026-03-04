@@ -4,8 +4,8 @@
 Please imagine that you are a sedentary person seeking help from a coach to improve your physical activity.
 
 ## Your Task
-1. Switch to coachH on the coach page.
-2. Talk with CoachH using the same scenario you used when talking with first coach.
+2. On the Coach page, select the appointed coach for task 2.
+2. Talk with the coach using the same scenario you used when talking with first coach.
 
 ## Instructions
 - Take your time - there's no rush
