@@ -10,5 +10,4 @@ Before testing the chatbot App, let us do a warm-up. Imaging you want to become 
 - Proceed to the next step once you have finished describing your thoughts
 
 
-
 Click "Next" when you're ready to begin.

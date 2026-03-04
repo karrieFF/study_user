@@ -1,12 +1,11 @@
-# Task 1: Conversation 1
+# Task 1: Download Chatbot App 
 
-## Scenario
-Please imagine that you are a sedentary person seeking help from a coach to improve your physical activity.
 
 ## Your Task
-1. Briefly explore each page of the app.
-2. Select the coachT in the Coach Page.
-3. Talk with the coach based on your personal experience or any scenario you can imagine.
+1. Donwload and install chatbot APP from "Google Store" or "Apple Store"
+2. Register it with your Google Account
+3. Navigate to "Home" Page
+3. Clinic "Recording" button in the Home Page
 
 ## Instructions
 - Take your time - there's no rush

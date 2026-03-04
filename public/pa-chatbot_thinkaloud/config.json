@@ -43,6 +43,11 @@
         "path": "pa-chatbot_thinkaloud/assets/Warm-up.md",
         "response": []
       },
+      "Task0_scenario": {
+        "type": "markdown",
+        "path": "pa-chatbot_thinkaloud/assets/task0-chatbotapp.md",
+        "response": []
+      },
       "Task1_scenario": {
         "type": "markdown",
         "path": "pa-chatbot_thinkaloud/assets/task1-chatbotapp.md",
@@ -90,6 +95,23 @@
           }
         ]
       },
+      "Survey1": {
+        "type": "website",
+        "path": "https://redcap01.brisc.utah.edu/ccts/redcap/surveys/index.php?s=yiuwJQRL8FHZgYhz&__prevpage=1",
+        "recordAudio": true,
+        "recordScreen": true,
+        "withSidebar": false,
+        "response":[]
+      },
+      "RestBreak": {
+        "type": "website",
+        "path": "../timer.html",
+        "description": "20 Minute Rest Break",
+        "instruction": "Please take a 20-minute break before starting the next task.\n\nClick the \"Start\" button to begin the timer.\n\nWhen the timer ends, click the \"Next\" button below to proceed to the next task.",
+        "recordAudio": true,
+        "recordScreen": true,
+        "response":[]
+      },
       "Task2_scenario": {
         "type": "markdown",
         "path": "pa-chatbot_thinkaloud/assets/task2-chatbotapp.md",
@@ -97,7 +119,7 @@
       },
       "Task2_chatbotapp": {
         "type": "website",
-        "path": "https://move-chat-sync.onrender.com",
+        "path": "https://www.freepik.com/free-vector/chatbot-chat-message-vectorart_125886829.htm#fromView=keyword&page=1&position=0&uuid=8ddd179a-ed03-4ce7-8233-24d371cca3ce&query=Chatbot",
         "description": "Task 2: Find information",
         "instruction": "Please complete the task while thinking aloud. Describe what you're doing and what you're thinking as you interact with the chatbot.",
         "recordAudio": true,
@@ -137,6 +159,14 @@
           }
         ]
       },
+      "Survey2": {
+        "type": "website",
+        "path": "https://redcap01.brisc.utah.edu/ccts/redcap/surveys/index.php?s=yiuwJQRL8FHZgYhz&__prevpage=1",
+        "recordAudio": true,
+        "recordScreen": true,
+        "withSidebar": false,
+        "response":[]
+      },
       "ThankYou": {
         "type": "markdown",
         "path": "pa-chatbot_thinkaloud/assets/thankyou.md",
@@ -149,13 +179,15 @@
         "Introduction",
         "ThinkAloudInstructions",
         "Warm-up",
+        "Task0_scenario",
+        "Task0_chatbotapp",
         "Task1_scenario",
-        "Coach1",
-        "$my-surveys.components.ChatbotApp",
-        "$my-surveys.components.PostQuestionnaire1",
+        "Task1_chatbotapp",
+        "Survey1",
+        "RestBreak",
         "Task2_scenario",
-        "Coach2",
-        "$my-surveys.components.PostQuestionnaire1",
+        "Task2_chatbotapp",
+        "Survey2",
         "$nasa-tlx.co.nasa-tlx",
         "ThankYou"
       ]
