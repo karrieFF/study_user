@@ -226,7 +226,7 @@
       "test": true
     },
     "pa-chatbot_thinkaloud": {
-    "path": "pa-chatbot_thinkaloud/config.json"
-  }
+      "path": "pa-chatbot_thinkaloud/config.json"
+    }
   }
 }
