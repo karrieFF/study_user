@@ -8,14 +8,14 @@ This study aims to evaluate a chatbot App for promoting physical activity. Your 
 ## What to Expect
 - This study will take approximately 60-90 minutes.
 - You will briefly explore the chatbot App.
-- You will communicate with the chatbot for two times (freely based on their own situation or provided scenarios).
-- We will record your screen, facial expressions, and audio while you think aloud.
+- You will communicate with the chatbot for two times.
+- We will record your video and audio while you think aloud.
 - You'll answer some questions before and after the tasks.
 
-## Privacy & Consent
+## Privacy
 - Your participation is voluntary.
 - You can withdraw at any time.
-- Screen, facial expressions, and audio recordings will be used only for research purposes.
+- Video and audio recordings will be used only for research purposes.
 - All data will be anonymized and kept confidential.
 
 ## Requirements
@@ -23,5 +23,10 @@ This study aims to evaluate a chatbot App for promoting physical activity. Your 
 - A working camera.
 - A working microphone.
 - A modern web browser (Chrome, Firefox, or Edge recommended).
+
+## Study Questions
+If you have questions about the study:
+- Email: Lingyi.Fu@utah.com
+- Response time: Within 24 hours
 
 By continuing, you consent to participate in this study.
