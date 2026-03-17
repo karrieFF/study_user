@@ -92,7 +92,7 @@
       },
       "Survey1": {
         "type": "website",
-        "path": "https://redcap01.brisc.utah.edu/ccts/redcap/surveys/index.php?s=yiuwJQRL8FHZgYhz&__prevpage=1",
+        "path": "https://redcap01.brisc.utah.edu/ccts/redcap/surveys/?s=vkbhhtdVCWdHRHBM",
         "recordAudio": true,
         "recordScreen": true,
         "withSidebar": false,
@@ -156,7 +156,7 @@
       },
       "Survey2": {
         "type": "website",
-        "path": "https://redcap01.brisc.utah.edu/ccts/redcap/surveys/index.php?s=yiuwJQRL8FHZgYhz&__prevpage=1",
+        "path": "https://redcap01.brisc.utah.edu/ccts/redcap/surveys/?s=TTTVdjzC66ifzThu",
         "recordAudio": true,
         "recordScreen": true,
         "withSidebar": false,
