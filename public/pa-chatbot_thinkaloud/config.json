@@ -43,6 +43,11 @@
         "path": "pa-chatbot_thinkaloud/assets/Warm-up.md",
         "response": []
       },
+      "Task0_scenario": {
+        "type": "markdown",
+        "path": "pa-chatbot_thinkaloud/assets/task0-chatbotapp.md",
+        "response": []
+      },
       "Task1_scenario": {
         "type": "markdown",
         "path": "pa-chatbot_thinkaloud/assets/task1-chatbotapp.md",
@@ -114,7 +119,7 @@
       },
       "Task2_chatbotapp": {
         "type": "website",
-        "path": "https://move-chat-sync.onrender.com",
+        "path": "https://www.freepik.com/free-vector/chatbot-chat-message-vectorart_125886829.htm#fromView=keyword&page=1&position=0&uuid=8ddd179a-ed03-4ce7-8233-24d371cca3ce&query=Chatbot",
         "description": "Task 2: Find information",
         "instruction": "Please complete the task while thinking aloud. Describe what you're doing and what you're thinking as you interact with the chatbot.",
         "recordAudio": true,
@@ -173,8 +178,8 @@
       "components": [
         "Introduction",
         "ThinkAloudInstructions",
-        "$screen-recording.co.screenRecordingPermission",
         "Warm-up",
+        "Task0_scenario",
         "Task1_scenario",
         "Task1_chatbotapp",
         "Survey1",
