@@ -31,35 +31,41 @@
       "Introduction": {
         "type": "markdown",
         "path": "pa-chatbot_thinkaloud/assets/introduction.md",
-        "response": []
+        "response": [],
+        "withSidebar": false
       }, 
       "ThinkAloudInstructions": {
         "type": "markdown",
         "path": "pa-chatbot_thinkaloud/assets/thinkaloud-instructions.md",
-        "response": []
+        "response": [],
+        "withSidebar": false
       },
       "Warm-up": {
         "type": "markdown",
         "path": "pa-chatbot_thinkaloud/assets/Warm-up.md",
-        "response": []
+        "response": [],
+        "withSidebar": false
       },
       "Task0_scenario": {
         "type": "markdown",
         "path": "pa-chatbot_thinkaloud/assets/task0-chatbotapp.md",
-        "response": []
+        "response": [],
+        "withSidebar": false
       },
       "Task1_scenario": {
         "type": "markdown",
         "path": "pa-chatbot_thinkaloud/assets/task1-chatbotapp.md",
-        "response": []
+        "response": [],
+        "withSidebar": false
       },
       "Task1_chatbotapp": {
-        "type": "website",
-        "path": "https://move-chat-sync.onrender.com",
+        "type": "markdown",
+        "path": "pa-chatbot_thinkaloud/assets/task1-chatbotapp.md",
         "description": "Task: C",
         "instruction": "Please complete the task while thinking aloud. Describe what you're doing and what you're thinking as you interact with the chatbot.",
         "recordAudio": true,
         "recordScreen": true,
+        "withSidebar": false,
         "response": [
           {
             "id": "task1-completed",
