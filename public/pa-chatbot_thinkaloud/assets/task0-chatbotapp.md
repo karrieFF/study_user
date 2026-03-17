@@ -1,6 +1,5 @@
 # Preparation: Download Chatbot App 
 
-
 ## Your Task
 1. Donwload and install chatbot APP from "Google Store" or "Apple Store"
 2. Register it with your Google Account
@@ -8,7 +7,7 @@
 3. Click "Recording" button in the Home Page
 
 ## Instructions
-- Take your time - there's no rush
+- Take your time - there's no rushs
 - Try to say everything that comes to your mind while you engage with the task
 - If you get stuck, that's okay - just describe what you're trying to do
 - When you're done (or if you can't complete it), answer the questions on the right

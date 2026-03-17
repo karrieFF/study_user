@@ -52,20 +52,13 @@
         "response": [],
         "withSidebar": false
       },
-      "Task1_scenario": {
-        "type": "markdown",
-        "path": "pa-chatbot_thinkaloud/assets/task1-chatbotapp.md",
-        "response": [],
-        "withSidebar": false
-      },
       "Task1_chatbotapp": {
         "type": "markdown",
         "path": "pa-chatbot_thinkaloud/assets/task1-chatbotapp.md",
-        "description": "Task: C",
+        "description": "Task 1",
         "instruction": "Please complete the task while thinking aloud. Describe what you're doing and what you're thinking as you interact with the chatbot.",
         "recordAudio": true,
         "recordScreen": true,
-        "withSidebar": false,
         "response": [
           {
             "id": "task1-completed",
@@ -118,15 +111,10 @@
         "recordScreen": true,
         "response":[]
       },
-      "Task2_scenario": {
+      "Task2_chatbotapp": {
         "type": "markdown",
         "path": "pa-chatbot_thinkaloud/assets/task2-chatbotapp.md",
-        "response": []
-      },
-      "Task2_chatbotapp": {
-        "type": "website",
-        "path": "https://www.freepik.com/free-vector/chatbot-chat-message-vectorart_125886829.htm#fromView=keyword&page=1&position=0&uuid=8ddd179a-ed03-4ce7-8233-24d371cca3ce&query=Chatbot",
-        "description": "Task 2: Find information",
+        "description": "Task 2",
         "instruction": "Please complete the task while thinking aloud. Describe what you're doing and what you're thinking as you interact with the chatbot.",
         "recordAudio": true,
         "recordScreen": true,
@@ -176,7 +164,8 @@
       "ThankYou": {
         "type": "markdown",
         "path": "pa-chatbot_thinkaloud/assets/thankyou.md",
-        "response": []
+        "response": [],
+        "withSidebar": false
       }
     },
     "sequence": {
@@ -186,11 +175,9 @@
         "ThinkAloudInstructions",
         "Warm-up",
         "Task0_scenario",
-        "Task1_scenario",
         "Task1_chatbotapp",
         "Survey1",
         "RestBreak",
-        "Task2_scenario",
         "Task2_chatbotapp",
         "Survey2",
         "$nasa-tlx.co.nasa-tlx",

@@ -4,8 +4,9 @@
 Please imagine that you are a sedentary person seeking help from a coach to improve your physical activity.
 
 ## Your Task
-2. On the Coach page, select the appointed coach for task 2.
+1. On the Coach page, select the appointed coach for task 2.
 2. Talk with the coach using the same scenario you used when talking with first coach.
+3. After completing the conversation, please fill out the survey on the left side.
 
 ## Instructions
 - Take your time - there's no rush
@@ -14,4 +15,4 @@ Please imagine that you are a sedentary person seeking help from a coach to impr
 - When you're done (or if you can't complete it), answer the questions on the right
 - Click "Next" once you have finished questions
 
-Click "Next" when you're ready to begin.
+Click “Next” to complete the AI coach evaluation survey.
