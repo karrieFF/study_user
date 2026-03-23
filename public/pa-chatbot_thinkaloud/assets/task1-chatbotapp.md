@@ -7,6 +7,7 @@ Please imagine that you are a sedentary person seeking help from a coach to impr
 1. Briefly explore each page of the app.
 2. On the Coach page, select the appointed coach for task 1.
 3. Talk with the coach based on your personal experience or any scenario you can imagine.
+4. After completing the conversation, please fill out the survey on the left side.
 
 ## Instructions
 - Take your time - there's no rush
@@ -15,4 +16,4 @@ Please imagine that you are a sedentary person seeking help from a coach to impr
 - When you're done (or if you can't complete it), answer the questions on the right
 - Click "Next" once you have finished questions
 
-Click "Next" when you're ready to begin.
+Click “Next” to complete the AI coach evaluation survey.
