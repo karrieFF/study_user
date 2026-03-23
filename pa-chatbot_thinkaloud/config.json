@@ -37,7 +37,14 @@
     "Introduction": {
       "type": "markdown",
       "path": "pa-chatbot_thinkaloud/assets/introduction.md",
-      "response": [],
+      "response": [
+        {
+          "id": "manual-redcap-id",
+          "prompt": "Before we begin, please enter your Research / REDCap ID:",
+          "type": "string",
+          "required": true
+        }
+      ],
       "withSidebar": false
     },
     "ThinkAloudInstructions": {
