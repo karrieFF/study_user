@@ -14,7 +14,6 @@ To run this demo experiment locally, you will need to install node on your compu
 * Go to [http://localhost:8080](http://localhost:8080) to view it in your browser. The page will reload when you make changes. 
 * Github researc team: https://karrieff.github.io/study_user/
 * Github research link: https://karrieff.github.io/study_user/pa-chatbot_thinkaloud
-* Github research link with participant ID: https://karrieff.github.io/study_user/pa-chatbot_thinkaloud/?REDCAP_ID=12345
 
 ## Release Instructions
 
