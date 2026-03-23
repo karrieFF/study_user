@@ -1,187 +1,191 @@
 {
-    "$schema": "https://raw.githubusercontent.com/revisit-studies/study/v2.3.1/src/parser/StudyConfigSchema.json",
-    "studyMetadata": {
-      "title": "Think-Aloud Study: Chatbot App Evaluation Study",
-      "version": "1.0.0",
-      "authors": ["Lingyi Fu"],
-      "date": "2025-11-12",
-      "description": "A think-aloud usability study to evaluate a chatbot app for promoting physical activity",
-      "organizations": ["University of Utah"]
-    },
-    "uiConfig": {
-      "contactEmail": "Lingyi.Fu@utah.edu",
-      "helpTextPath": "pa-chatbot_thinkaloud/assets/help.md",
-      "logoPath": "revisitAssets/revisitLogoSquare.svg",
-      "withProgressBar": true,
-      "autoDownloadStudy": false,
-      "withSidebar": true,
-      "enumerateQuestions": true,
-      "recordScreen": true,
-      "recordAudio": true,
-      "recordScreenFPS": 30,
-      "windowEventDebounceTime": 200
-    },
-    "importedLibraries": [
-      "screen-recording",
-      "nasa-tlx",
-      "sus",
-      "my-surveys"
+  "$schema": "https://raw.githubusercontent.com/revisit-studies/study/v2.3.1/src/parser/StudyConfigSchema.json",
+  "studyMetadata": {
+    "title": "Think-Aloud Study: Chatbot App Evaluation Study",
+    "version": "1.0.0",
+    "authors": [
+      "Lingyi Fu"
     ],
-    "components": {
-      "Introduction": {
-        "type": "markdown",
-        "path": "pa-chatbot_thinkaloud/assets/introduction.md",
-        "response": [],
-        "withSidebar": false
-      }, 
-      "ThinkAloudInstructions": {
-        "type": "markdown",
-        "path": "pa-chatbot_thinkaloud/assets/thinkaloud-instructions.md",
-        "response": [],
-        "withSidebar": false
-      },
-      "Warm-up": {
-        "type": "markdown",
-        "path": "pa-chatbot_thinkaloud/assets/Warm-up.md",
-        "response": [],
-        "withSidebar": false
-      },
-      "Task0_scenario": {
-        "type": "markdown",
-        "path": "pa-chatbot_thinkaloud/assets/task0-chatbotapp.md",
-        "response": [],
-        "withSidebar": false
-      },
-      "Task1_chatbotapp": {
-        "type": "markdown",
-        "path": "pa-chatbot_thinkaloud/assets/task1-chatbotapp.md",
-        "description": "Task 1",
-        "instruction": "Please complete the task while thinking aloud. Describe what you're doing and what you're thinking as you interact with the chatbot.",
-        "recordAudio": true,
-        "recordScreen": true,
-        "response": [
-          {
-            "id": "task1-completed",
-            "prompt": "Did you successfully complete the task?",
-            "type": "radio",
-            "location": "sidebar",
-            "options": [
-              "Yes, completely",
-              "Yes, partially",
-              "No, but I tried",
-              "No, I couldn't figure it out"
-            ],
-            "required": true
-          },
-          {
-            "id": "task1-difficulty",
-            "prompt": "How difficult was this task?",
-            "type": "likert",
-            "location": "sidebar",
-            "numItems": 7,
-            "leftLabel": "Very easy",
-            "rightLabel": "Very difficult",
-            "required": true
-          },
-          {
-            "id": "task1-time", 
-            "prompt": "Approximately how long did this task take? (in minutes)",
-            "type": "numerical",
-            "location": "sidebar",
-            "min": 0,
-            "max": 60,
-            "required": true
-          }
-        ]
-      },
-      "Survey1": {
-        "type": "website",
-        "path": "https://redcap01.brisc.utah.edu/ccts/redcap/surveys/?s=vkbhhtdVCWdHRHBM",
-        "recordAudio": true,
-        "recordScreen": true,
-        "withSidebar": false,
-        "response":[]
-      },
-      "RestBreak": {
-        "type": "website",
-        "path": "../timer.html",
-        "description": "20 Minute Rest Break",
-        "instruction": "Please take a 20-minute break before starting the next task.\n\nClick the \"Start\" button to begin the timer.\n\nWhen the timer ends, click the \"Next\" button below to proceed to the next task.",
-        "recordAudio": true,
-        "recordScreen": true,
-        "response":[]
-      },
-      "Task2_chatbotapp": {
-        "type": "markdown",
-        "path": "pa-chatbot_thinkaloud/assets/task2-chatbotapp.md",
-        "description": "Task 2",
-        "instruction": "Please complete the task while thinking aloud. Describe what you're doing and what you're thinking as you interact with the chatbot.",
-        "recordAudio": true,
-        "recordScreen": true,
-        "response": [
-          {
-            "id": "task2-completed",
-            "prompt": "Did you successfully complete the task?",
-            "type": "radio",
-            "location": "sidebar",
-            "options": [
-              "Yes, completely",
-              "Yes, partially",
-              "No, but I tried",
-              "No, I couldn't figure it out"
-            ],
-            "required": true
-          },
-          {
-            "id": "task2-difficulty",
-            "prompt": "How difficult was this task?",
-            "type": "likert",
-            "location": "sidebar",
-            "numItems": 7,
-            "leftLabel": "Very easy",
-            "rightLabel": "Very difficult",
-            "required": true
-          },
-          {
-            "id": "task2-time",
-            "prompt": "Approximately how long did this task take? (in minutes)",
-            "type": "numerical",
-            "location": "sidebar",
-            "min": 0,
-            "max": 60,
-            "required": true
-          }
-        ]
-      },
-      "Survey2": {
-        "type": "website",
-        "path": "https://redcap01.brisc.utah.edu/ccts/redcap/surveys/?s=TTTVdjzC66ifzThu",
-        "recordAudio": true,
-        "recordScreen": true,
-        "withSidebar": false,
-        "response":[]
-      },
-      "ThankYou": {
-        "type": "markdown",
-        "path": "pa-chatbot_thinkaloud/assets/thankyou.md",
-        "response": [],
-        "withSidebar": false
-      }
+    "date": "2025-11-12",
+    "description": "A think-aloud usability study to evaluate a chatbot app for promoting physical activity",
+    "organizations": [
+      "University of Utah"
+    ]
+  },
+  "uiConfig": {
+    "contactEmail": "Lingyi.Fu@utah.edu",
+    "helpTextPath": "pa-chatbot_thinkaloud/assets/help.md",
+    "logoPath": "revisitAssets/revisitLogoSquare.svg",
+    "withProgressBar": true,
+    "autoDownloadStudy": false,
+    "withSidebar": true,
+    "enumerateQuestions": true,
+    "recordScreen": true,
+    "recordAudio": true,
+    "recordScreenFPS": 30,
+    "windowEventDebounceTime": 200
+  },
+  "importedLibraries": [
+    "screen-recording",
+    "nasa-tlx",
+    "sus",
+    "my-surveys"
+  ],
+  "components": {
+    "Introduction": {
+      "type": "markdown",
+      "path": "pa-chatbot_thinkaloud/assets/introduction.md",
+      "response": [],
+      "withSidebar": false
     },
-    "sequence": {
-      "order": "fixed",  
-      "components": [
-        "Introduction",
-        "ThinkAloudInstructions",
-        "Warm-up",
-        "Task0_scenario",
-        "Task1_chatbotapp",
-        "Survey1",
-        "RestBreak",
-        "Task2_chatbotapp",
-        "Survey2",
-        "$nasa-tlx.co.nasa-tlx",
-        "ThankYou"
+    "ThinkAloudInstructions": {
+      "type": "markdown",
+      "path": "pa-chatbot_thinkaloud/assets/thinkaloud-instructions.md",
+      "response": [],
+      "withSidebar": false
+    },
+    "Warm-up": {
+      "type": "markdown",
+      "path": "pa-chatbot_thinkaloud/assets/Warm-up.md",
+      "response": [],
+      "withSidebar": false
+    },
+    "Task0_scenario": {
+      "type": "markdown",
+      "path": "pa-chatbot_thinkaloud/assets/task0-chatbotapp.md",
+      "response": [],
+      "withSidebar": false
+    },
+    "Task1_chatbotapp": {
+      "type": "markdown",
+      "path": "pa-chatbot_thinkaloud/assets/task1-chatbotapp.md",
+      "description": "Task 1",
+      "instruction": "Please complete the task while thinking aloud. Describe what you're doing and what you're thinking as you interact with the chatbot.",
+      "recordAudio": true,
+      "recordScreen": true,
+      "response": [
+        {
+          "id": "task1-completed",
+          "prompt": "Did you successfully complete the task?",
+          "type": "radio",
+          "location": "sidebar",
+          "options": [
+            "Yes, completely",
+            "Yes, partially",
+            "No, but I tried",
+            "No, I couldn't figure it out"
+          ],
+          "required": true
+        },
+        {
+          "id": "task1-difficulty",
+          "prompt": "How difficult was this task?",
+          "type": "likert",
+          "location": "sidebar",
+          "numItems": 7,
+          "leftLabel": "Very easy",
+          "rightLabel": "Very difficult",
+          "required": true
+        },
+        {
+          "id": "task1-time",
+          "prompt": "Approximately how long did this task take? (in minutes)",
+          "type": "numerical",
+          "location": "sidebar",
+          "min": 0,
+          "max": 60,
+          "required": true
+        }
       ]
+    },
+    "Survey1": {
+      "type": "website",
+      "path": "https://redcap01.brisc.utah.edu/ccts/redcap/surveys/",
+      "recordAudio": true,
+      "recordScreen": true,
+      "withSidebar": false,
+      "response": []
+    },
+    "RestBreak": {
+      "type": "website",
+      "path": "../timer.html",
+      "description": "20 Minute Rest Break",
+      "instruction": "Please take a 20-minute break before starting the next task.\n\nClick the \"Start\" button to begin the timer.\n\nWhen the timer ends, click the \"Next\" button below to proceed to the next task.",
+      "recordAudio": true,
+      "recordScreen": true,
+      "response": []
+    },
+    "Task2_chatbotapp": {
+      "type": "markdown",
+      "path": "pa-chatbot_thinkaloud/assets/task2-chatbotapp.md",
+      "description": "Task 2",
+      "instruction": "Please complete the task while thinking aloud. Describe what you're doing and what you're thinking as you interact with the chatbot.",
+      "recordAudio": true,
+      "recordScreen": true,
+      "response": [
+        {
+          "id": "task2-completed",
+          "prompt": "Did you successfully complete the task?",
+          "type": "radio",
+          "location": "sidebar",
+          "options": [
+            "Yes, completely",
+            "Yes, partially",
+            "No, but I tried",
+            "No, I couldn't figure it out"
+          ],
+          "required": true
+        },
+        {
+          "id": "task2-difficulty",
+          "prompt": "How difficult was this task?",
+          "type": "likert",
+          "location": "sidebar",
+          "numItems": 7,
+          "leftLabel": "Very easy",
+          "rightLabel": "Very difficult",
+          "required": true
+        },
+        {
+          "id": "task2-time",
+          "prompt": "Approximately how long did this task take? (in minutes)",
+          "type": "numerical",
+          "location": "sidebar",
+          "min": 0,
+          "max": 60,
+          "required": true
+        }
+      ]
+    },
+    "Survey2": {
+      "type": "website",
+      "path": "https://redcap01.brisc.utah.edu/ccts/redcap/surveys/",
+      "recordAudio": true,
+      "recordScreen": true,
+      "withSidebar": false,
+      "response": []
+    },
+    "ThankYou": {
+      "type": "markdown",
+      "path": "pa-chatbot_thinkaloud/assets/thankyou.md",
+      "response": [],
+      "withSidebar": false
     }
+  },
+  "sequence": {
+    "order": "fixed",
+    "components": [
+      "Introduction",
+      "ThinkAloudInstructions",
+      "Warm-up",
+      "Task0_scenario",
+      "Task1_chatbotapp",
+      "Survey1",
+      "RestBreak",
+      "Task2_chatbotapp",
+      "Survey2",
+      "$nasa-tlx.co.nasa-tlx",
+      "ThankYou"
+    ]
   }
+}
