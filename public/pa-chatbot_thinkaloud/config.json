@@ -13,6 +13,7 @@
     ]
   },
   "uiConfig": {
+    "urlParticipantIdParam": "REDCAP_ID",
     "contactEmail": "Lingyi.Fu@utah.edu",
     "helpTextPath": "pa-chatbot_thinkaloud/assets/help.md",
     "logoPath": "revisitAssets/revisitLogoSquare.svg",
