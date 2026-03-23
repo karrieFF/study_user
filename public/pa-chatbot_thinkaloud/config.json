@@ -28,6 +28,7 @@
   },
   "importedLibraries": [
     "screen-recording",
+    "mic-check",
     "nasa-tlx",
     "sus",
     "my-surveys"
@@ -178,6 +179,7 @@
     "components": [
       "Introduction",
       "ThinkAloudInstructions",
+      "$mic-check.co.audioTest",
       "Warm-up",
       "Task0_scenario",
       "Task1_chatbotapp",
