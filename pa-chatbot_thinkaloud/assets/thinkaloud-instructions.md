@@ -23,4 +23,4 @@ During this study, we ask you to **think aloud** - that means speaking your thou
 - **You do not need to plan** - to not try to plan out what to say.
 
 ## Ready?
-When you're ready, click "Next" to proceed with setting up screen recording.
+When you're ready, click "Next" to proceed with setting up audio recording.
