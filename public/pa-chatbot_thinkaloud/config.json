@@ -108,7 +108,7 @@
     },
     "RestBreak": {
       "type": "website",
-      "path": "../timer.html",
+      "path": "timer.html",
       "description": "20 Minute Rest Break",
       "instruction": "Please take a 20-minute break before starting the next task.\n\nClick the \"Start\" button to begin the timer.\n\nWhen the timer ends, click the \"Next\" button below to proceed to the next task.",
       "recordAudio": true,
