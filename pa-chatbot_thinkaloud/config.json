@@ -41,7 +41,7 @@
         {
           "id": "manual-redcap-id",
           "prompt": "Before we begin, please enter your Research / REDCap ID:",
-          "type": "string",
+          "type": "shortText",
           "required": true
         }
       ],
