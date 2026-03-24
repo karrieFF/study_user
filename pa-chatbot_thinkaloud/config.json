@@ -40,7 +40,7 @@
       "response": [
         {
           "id": "manual-redcap-id",
-          "prompt": "Before we begin, please enter your Research ID:",
+          "prompt": "Before we begin, please enter your Research ID (S1xxx):",
           "type": "shortText",
           "required": true
         }
