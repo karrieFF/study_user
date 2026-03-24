@@ -95,7 +95,7 @@ export function useScreenRecording() {
       return;
     }
 
-    if (!screenMediaStream.current) {
+    if (!screenMediaStream.current && !audioMediaStream.current) {
       return;
     }
 
