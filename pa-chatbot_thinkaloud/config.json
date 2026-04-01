@@ -17,7 +17,7 @@
     "contactEmail": "Lingyi.Fu@utah.edu",
     "helpTextPath": "pa-chatbot_thinkaloud/assets/help.md",
     "logoPath": "revisitAssets/revisitLogoSquare.svg",
-    "withProgressBar": true,
+    "withProgressBar": false,
     "autoDownloadStudy": false,
     "withSidebar": false,
     "enumerateQuestions": true,
