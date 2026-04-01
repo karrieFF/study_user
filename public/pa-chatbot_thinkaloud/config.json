@@ -19,15 +19,12 @@
     "logoPath": "revisitAssets/revisitLogoSquare.svg",
     "withProgressBar": true,
     "autoDownloadStudy": false,
-    "withSidebar": true,
+    "withSidebar": false,
     "enumerateQuestions": true,
-    "recordScreen": true,
     "recordAudio": true,
-    "recordScreenFPS": 30,
     "windowEventDebounceTime": 200
   },
   "importedLibraries": [
-    "screen-recording",
     "mic-check",
     "nasa-tlx",
     "sus",
@@ -71,7 +68,6 @@
       "description": "Task 1",
       "instruction": "Please complete the task while thinking aloud. Describe what you're doing and what you're thinking as you interact with the chatbot.",
       "recordAudio": true,
-      "recordScreen": true,
       "response": [
         {
           "id": "task1-completed",
@@ -111,8 +107,8 @@
       "type": "website",
       "path": "https://redcap01.brisc.utah.edu/ccts/redcap/surveys/",
       "recordAudio": true,
-      "recordScreen": true,
-      "withSidebar": false,
+      "withSidebar": true,
+      "instruction": "1. The access code can be found in the email we sent you before the study.\n2. Please scroll down to click the \"Next Page\" of the survey. You will see \"Thank you for taking the survey\" once you finish.",
       "response": []
     },
     "RestBreak": {
@@ -121,7 +117,6 @@
       "description": "20 Minute Rest Break",
       "instruction": "Please take a 20-minute break before starting the next task.\n\nClick the \"Start\" button to begin the timer.\n\nWhen the timer ends, click the \"Next\" button below to proceed to the next task.",
       "recordAudio": true,
-      "recordScreen": true,
       "response": []
     },
     "Task2_chatbotapp": {
@@ -130,7 +125,6 @@
       "description": "Task 2",
       "instruction": "Please complete the task while thinking aloud. Describe what you're doing and what you're thinking as you interact with the chatbot.",
       "recordAudio": true,
-      "recordScreen": true,
       "response": [
         {
           "id": "task2-completed",
@@ -170,8 +164,8 @@
       "type": "website",
       "path": "https://redcap01.brisc.utah.edu/ccts/redcap/surveys/",
       "recordAudio": true,
-      "recordScreen": true,
-      "withSidebar": false,
+      "withSidebar": true,
+      "instruction": "1. The access code can be found in the email we sent you before the study.\n2. Please scroll down to click the \"Next Page\" of the survey. You will see \"Thank you for taking the survey\" once you finish.",
       "response": []
     },
     "ThankYou": {

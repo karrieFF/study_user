@@ -175,6 +175,7 @@ export function useScreenRecording() {
     setIsScreenRecording(false);
     setScreenWithAudioRecording(false);
     currentMediaRecorder.current?.stop();
+    audioMediaRecorder.current?.stop();
   }, []);
 
   useEffect(() => {
