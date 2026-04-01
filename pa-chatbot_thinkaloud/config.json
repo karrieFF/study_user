@@ -68,6 +68,7 @@
       "description": "Task 1",
       "instruction": "Please complete the task while thinking aloud. Describe what you're doing and what you're thinking as you interact with the chatbot.",
       "recordAudio": true,
+      "withSidebar": true,
       "response": [
         {
           "id": "task1-completed",
@@ -125,6 +126,7 @@
       "description": "Task 2",
       "instruction": "Please complete the task while thinking aloud. Describe what you're doing and what you're thinking as you interact with the chatbot.",
       "recordAudio": true,
+      "withSidebar": true,
       "response": [
         {
           "id": "task2-completed",
