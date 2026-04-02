@@ -7,10 +7,10 @@ Please also imagine that you are a sedentary person seeking help from a coach to
 ## Your Task
 
 ### 1. Interact with the Coach
-
-1. On the **Coach** page, select the appointed coach for Task 2.
-2. Talk with the coach using the same scenario you used for Task 1.
-3. After completing the conversation, click the **End** button in the **Coach** page, then click **End Recording** in the **Home** page.
+1. Navigate to Home Page again and click "Start Recording" button.
+2. Back to the **Coach** page, select the appointed coach for Task 2.
+3. Talk with the coach using the same scenario you used for Task 1.
+4. After completing the conversation, click the **End** button in the **Coach** page, then click **End Recording** in the **Home** page.
 
 ### 2. Complete the Evaluation Survey
 
