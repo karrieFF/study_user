@@ -109,8 +109,20 @@
       "path": "https://redcap01.brisc.utah.edu/ccts/redcap/surveys/",
       "recordAudio": true,
       "withSidebar": true,
-      "instruction": "1. The access code can be found in the email we sent you before the study.\n2. Please scroll down to click the \"Next Page\" of the survey. You will see \"Thank you for taking the survey\" once you finish.",
-      "response": []
+      "instruction": "1. The access code can be found in the email we sent you before the study.\n2. Please scroll down to click the \"Next Page\" of the survey. You will see \"Thank you for taking the survey\" once you finish.\n3. Please make sure to complete the survey before clicking the \"Next\" button below.",
+      "response": [{
+          "id": "task2-completed",
+          "prompt": "Did you successfully complete the task?",
+          "type": "radio",
+          "location": "sidebar",
+          "options": [
+            "Yes, completely",
+            "Yes, partially",
+            "No, but I tried",
+            "No, I couldn't figure it out"
+          ],
+          "required": true
+        }]
     },
     "RestBreak": {
       "type": "website",
@@ -167,8 +179,20 @@
       "path": "https://redcap01.brisc.utah.edu/ccts/redcap/surveys/",
       "recordAudio": true,
       "withSidebar": true,
-      "instruction": "1. The access code can be found in the email we sent you before the study.\n2. Please scroll down to click the \"Next Page\" of the survey. You will see \"Thank you for taking the survey\" once you finish.",
-      "response": []
+      "instruction": "1. The access code can be found in the email we sent you before the study.\n2. Please scroll down to click the \"Next Page\" of the survey. You will see \"Thank you for taking the survey\" once you finish. \n3. Please make sure to complete the survey before clicking the \"Next\" button below.",
+      "response": [{
+          "id": "task2-completed",
+          "prompt": "Did you successfully complete the task?",
+          "type": "radio",
+          "location": "sidebar",
+          "options": [
+            "Yes, completely",
+            "Yes, partially",
+            "No, but I tried",
+            "No, I couldn't figure it out"
+          ],
+          "required": true
+        }]
     },
     "ThankYou": {
       "type": "markdown",
