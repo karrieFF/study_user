@@ -26,7 +26,7 @@ This study aims to evaluate a chatbot App for promoting physical activity. Your 
 
 ## Study Questions
 If you have questions about the study:
-- Email: Lingyi.Fu@utah.com
+- Email: Lingyi.Fu@utah.edu
 - Response time: Within 24 hours
 
 By continuing, you consent to participate in this study.
