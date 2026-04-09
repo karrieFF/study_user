@@ -142,6 +142,8 @@ export interface UIConfig {
   // Required fields
   /** The path to the logo image. This is displayed on the landing page and the header. */
   logoPath: string;
+  /** The URL to navigate to when the logo is clicked. */
+  logoTo?: string;
   /** The email address that used during the study if a participant clicks contact. */
   contactEmail: string;
   /** Controls whether the progress bar is rendered in the study. */

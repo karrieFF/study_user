@@ -10,7 +10,7 @@ Thank you for participating in this study! Your feedback is invaluable and will 
 - Results will be used for research purposes only
 
 ## Questions?
-If you have any questions about this study, please contact: Lingyi.Fu@utah.com
+If you have any questions about this study, please contact: Lingyi.Fu@utah.edu
 
 ---
 

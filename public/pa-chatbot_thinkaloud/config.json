@@ -17,11 +17,12 @@
     "contactEmail": "Lingyi.Fu@utah.edu",
     "helpTextPath": "pa-chatbot_thinkaloud/assets/help.md",
     "logoPath": "revisitAssets/revisitLogoSquare.svg",
+    "logoTo": "/",
     "withProgressBar": false,
     "autoDownloadStudy": false,
     "withSidebar": false,
     "enumerateQuestions": true,
-    "recordAudio": true,
+    "recordAudio": false,
     "windowEventDebounceTime": 200
   },
   "importedLibraries": [
@@ -67,7 +68,7 @@
       "path": "pa-chatbot_thinkaloud/assets/task1-chatbotapp.md",
       "description": "Task 1",
       "instruction": "Please complete the task while thinking aloud. Describe what you're doing and what you're thinking as you interact with the chatbot.",
-      "recordAudio": true,
+      "recordAudio": false,
       "withSidebar": true,
       "response": [
         {
@@ -107,7 +108,7 @@
     "Survey1": {
       "type": "website",
       "path": "https://redcap01.brisc.utah.edu/ccts/redcap/surveys/",
-      "recordAudio": true,
+      "recordAudio": false,
       "withSidebar": true,
       "instruction": "1. The access code can be found in the email we sent you before the study.\n2. Please scroll down to click the \"Next Page\" of the survey. You will see \"Thank you for taking the survey\" once you finish.\n3. Please make sure to complete the survey before clicking the \"Next\" button below.",
       "response": [{
@@ -129,7 +130,7 @@
       "path": "timer.html",
       "description": "20 Minute Rest Break",
       "instruction": "Please take a 20-minute break before starting the next task.\n\nClick the \"Start\" button to begin the timer.\n\nWhen the timer ends, click the \"Next\" button below to proceed to the next task.",
-      "recordAudio": true,
+      "recordAudio": false,
       "response": []
     },
     "Task2_chatbotapp": {
@@ -137,7 +138,7 @@
       "path": "pa-chatbot_thinkaloud/assets/task2-chatbotapp.md",
       "description": "Task 2",
       "instruction": "Please complete the task while thinking aloud. Describe what you're doing and what you're thinking as you interact with the chatbot.",
-      "recordAudio": true,
+      "recordAudio": false,
       "withSidebar": true,
       "response": [
         {
@@ -177,7 +178,7 @@
     "Survey2": {
       "type": "website",
       "path": "https://redcap01.brisc.utah.edu/ccts/redcap/surveys/",
-      "recordAudio": true,
+      "recordAudio": false,
       "withSidebar": true,
       "instruction": "1. The access code can be found in the email we sent you before the study.\n2. Please scroll down to click the \"Next Page\" of the survey. You will see \"Thank you for taking the survey\" once you finish. \n3. Please make sure to complete the survey before clicking the \"Next\" button below.",
       "response": [{
@@ -206,7 +207,6 @@
     "components": [
       "Introduction",
       "ThinkAloudInstructions",
-      "$mic-check.co.audioTest",
       "Warm-up",
       "Task0_scenario",
       "Task1_chatbotapp",

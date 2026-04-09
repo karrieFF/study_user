@@ -3102,6 +3102,10 @@
           "description": "The path to the logo image. This is displayed on the landing page and the header.",
           "type": "string"
         },
+        "logoTo": {
+          "description": "The URL to navigate to when the logo is clicked.",
+          "type": "string"
+        },
         "minHeightSize": {
           "description": "The minimum screen height size for the study",
           "type": "number"

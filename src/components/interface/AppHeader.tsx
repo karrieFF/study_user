@@ -73,6 +73,7 @@ export function AppHeader({ studyNavigatorEnabled, dataCollectionEnabled }: { st
   const [menuOpened, setMenuOpened] = useState(false);
 
   const logoPath = studyConfig?.uiConfig.logoPath;
+  const logoTo = studyConfig?.uiConfig.logoTo;
   const withProgressBar = useMemo(() => componentConfig.withProgressBar ?? studyConfig.uiConfig.withProgressBar, [componentConfig, studyConfig]);
   const showTitle = useMemo(() => componentConfig.showTitle ?? studyConfig.uiConfig.showTitle ?? true, [componentConfig, studyConfig]);
 
@@ -138,7 +139,13 @@ export function AppHeader({ studyNavigatorEnabled, dataCollectionEnabled }: { st
       <Grid mt={-7} align="center">
         <Grid.Col span={4}>
           <Flex align="center">
-            <Image w={40} src={`${PREFIX}${logoPath}`} alt="Study Logo" className="logoImage" />
+            {logoTo ? (
+              <a href={logoTo.startsWith('http') ? logoTo : `${PREFIX}${logoTo.startsWith('/') ? logoTo.slice(1) : logoTo}`}>
+                <Image w={40} src={`${PREFIX}${logoPath}`} alt="Study Logo" className="logoImage" />
+              </a>
+            ) : (
+              <Image w={40} src={`${PREFIX}${logoPath}`} alt="Study Logo" className="logoImage" />
+            )}
             <Space w="md" />
             {showTitle ? (
               <Title
