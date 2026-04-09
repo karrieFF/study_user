@@ -33,6 +33,7 @@
   ],
   "components": {
     "Introduction": {
+      "previousButton": true,
       "type": "markdown",
       "path": "pa-chatbot_thinkaloud/assets/introduction.md",
       "response": [
@@ -46,24 +47,28 @@
       "withSidebar": false
     },
     "ThinkAloudInstructions": {
+      "previousButton": true,
       "type": "markdown",
       "path": "pa-chatbot_thinkaloud/assets/thinkaloud-instructions.md",
       "response": [],
       "withSidebar": false
     },
     "Warm-up": {
+      "previousButton": true,
       "type": "markdown",
       "path": "pa-chatbot_thinkaloud/assets/Warm-up.md",
       "response": [],
       "withSidebar": false
     },
     "Task0_scenario": {
+      "previousButton": true,
       "type": "markdown",
       "path": "pa-chatbot_thinkaloud/assets/task0-chatbotapp.md",
       "response": [],
       "withSidebar": false
     },
     "Task1_chatbotapp": {
+      "previousButton": true,
       "type": "markdown",
       "path": "pa-chatbot_thinkaloud/assets/task1-chatbotapp.md",
       "description": "Task 1",
@@ -106,6 +111,7 @@
       ]
     },
     "Survey1": {
+      "previousButton": true,
       "type": "website",
       "path": "https://redcap01.brisc.utah.edu/ccts/redcap/surveys/",
       "recordAudio": false,
@@ -126,6 +132,7 @@
         }]
     },
     "RestBreak": {
+      "previousButton": true,
       "type": "website",
       "path": "timer.html",
       "description": "20 Minute Rest Break",
@@ -134,6 +141,7 @@
       "response": []
     },
     "Task2_chatbotapp": {
+      "previousButton": true,
       "type": "markdown",
       "path": "pa-chatbot_thinkaloud/assets/task2-chatbotapp.md",
       "description": "Task 2",
@@ -176,6 +184,7 @@
       ]
     },
     "Survey2": {
+      "previousButton": true,
       "type": "website",
       "path": "https://redcap01.brisc.utah.edu/ccts/redcap/surveys/",
       "recordAudio": false,
@@ -196,6 +205,7 @@
         }]
     },
     "ThankYou": {
+      "previousButton": true,
       "type": "markdown",
       "path": "pa-chatbot_thinkaloud/assets/thankyou.md",
       "response": [],
