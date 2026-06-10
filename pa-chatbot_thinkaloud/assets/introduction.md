@@ -1,16 +1,16 @@
-# Welcome to the Chatbot App Evaluation Study
+# Welcome to the AI Coach Evaluation Study
 
 Thank you for participating in this study! 
 
 ## Purpose
-This study aims to evaluate a chatbot App for promoting physical activity. Your feedback will help us improve the chatbot's functionality, usability, and user experience.
+This study aims to evaluate an AI coach for promoting physical activity. Your feedback will help us improve the AI coach's functionality, usability, and user experience.
 
 ## What to Expect
 - This study will take approximately 60-90 minutes.
-- You will briefly explore the chatbot App.
-- You will communicate with the chatbot for two times.
-- We will record your video and audio while you think aloud.
-- You'll answer some questions before and after the tasks.
+- You will briefly explore the AI coach app.
+- You will have two conversations with the AI coach.
+- We will record your audio while you think aloud.
+- You will answer some questions before and after the tasks.
 
 ## Privacy
 - Your participation is voluntary.

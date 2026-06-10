@@ -7,7 +7,7 @@
       "Lingyi Fu"
     ],
     "date": "2025-11-12",
-    "description": "A think-aloud usability study to evaluate a chatbot app for promoting physical activity",
+    "description": "A think-aloud usability study evaluating a chatbot app for promoting physical activity",
     "organizations": [
       "University of Utah"
     ]
@@ -72,7 +72,7 @@
       "type": "markdown",
       "path": "pa-chatbot_thinkaloud/assets/task1-chatbotapp.md",
       "description": "Task 1",
-      "instruction": "Please complete the task while thinking aloud. Describe what you're doing and what you're thinking as you interact with the chatbot.",
+      "instruction": "Please complete the task while thinking aloud. Describe what you are doing and what you are thinking as you interact with the chatbot.",
       "recordAudio": false,
       "withSidebar": true,
       "response": [
@@ -101,7 +101,7 @@
         },
         {
           "id": "task1-time",
-          "prompt": "Approximately how long did this task take? (in minutes)",
+          "prompt": "Approximately how long did this task take? Please answer in minutes.",
           "type": "numerical",
           "location": "sidebar",
           "min": 0,
@@ -116,9 +116,9 @@
       "path": "https://redcap01.brisc.utah.edu/ccts/redcap/surveys/",
       "recordAudio": false,
       "withSidebar": true,
-      "instruction": "1. The access code can be found in the email we sent you before the study.\n2. Please scroll down to click the \"Next Page\" of the survey. You will see \"Thank you for taking the survey\" once you finish.\n3. Please make sure to complete the survey before clicking the \"Next\" button below.",
+      "instruction": "1. The access code can be found in the email we sent you before the study.\n2. Please scroll down and click \"Next Page\" in the survey. You will see \"Thank you for taking the survey\" once you finish.\n3. Please complete the survey before clicking the \"Next\" button below.",
       "response": [{
-          "id": "task2-completed",
+          "id": "survey1-completed",
           "prompt": "Did you successfully complete the task?",
           "type": "radio",
           "location": "sidebar",
@@ -135,7 +135,7 @@
       "previousButton": true,
       "type": "website",
       "path": "timer.html",
-      "description": "20 Minute Rest Break",
+      "description": "20-Minute Rest Break",
       "instruction": "Please take a 20-minute break before starting the next task.\n\nClick the \"Start\" button to begin the timer.\n\nWhen the timer ends, click the \"Next\" button below to proceed to the next task.",
       "recordAudio": false,
       "response": []
@@ -145,7 +145,7 @@
       "type": "markdown",
       "path": "pa-chatbot_thinkaloud/assets/task2-chatbotapp.md",
       "description": "Task 2",
-      "instruction": "Please complete the task while thinking aloud. Describe what you're doing and what you're thinking as you interact with the chatbot.",
+      "instruction": "Please complete the task while thinking aloud. Describe what you are doing and what you are thinking as you interact with the chatbot.",
       "recordAudio": false,
       "withSidebar": true,
       "response": [
@@ -174,7 +174,7 @@
         },
         {
           "id": "task2-time",
-          "prompt": "Approximately how long did this task take? (in minutes)",
+          "prompt": "Approximately how long did this task take? Please answer in minutes.",
           "type": "numerical",
           "location": "sidebar",
           "min": 0,
@@ -189,9 +189,9 @@
       "path": "https://redcap01.brisc.utah.edu/ccts/redcap/surveys/",
       "recordAudio": false,
       "withSidebar": true,
-      "instruction": "1. The access code can be found in the email we sent you before the study.\n2. Please scroll down to click the \"Next Page\" of the survey. You will see \"Thank you for taking the survey\" once you finish. \n3. Please make sure to complete the survey before clicking the \"Next\" button below.",
+      "instruction": "1. The access code can be found in the email we sent you before the study.\n2. Please scroll down and click \"Next Page\" in the survey. You will see \"Thank you for taking the survey\" once you finish.\n3. Please complete the survey before clicking the \"Next\" button below.",
       "response": [{
-          "id": "task2-completed",
+          "id": "survey2-completed",
           "prompt": "Did you successfully complete the task?",
           "type": "radio",
           "location": "sidebar",
@@ -217,8 +217,8 @@
     "components": [
       "Introduction",
       "ThinkAloudInstructions",
-      "Warm-up",
       "Task0_scenario",
+      "Warm-up",
       "Task1_chatbotapp",
       "Survey1",
       "RestBreak",
