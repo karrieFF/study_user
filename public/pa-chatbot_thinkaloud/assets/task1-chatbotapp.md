@@ -7,8 +7,8 @@ Imagine that you are seeking help from a coach to become more physically active.
 ## Your Task
 
 ### 1. Open the audio recording 
-1. Navigate to the **Home** page.
-2. Click the **Start Recording** button on the **Home** page.
+1. Navigate to the **Profile** page.
+2. Click the **Start Recording** button on the **Profile** page.
 
 ### 2. Explore the App
 
@@ -18,7 +18,7 @@ Imagine that you are seeking help from a coach to become more physically active.
 
 1. Navigate to the **Coach** page and select the assigned coach for Task 1.
 2. Talk with the coach based on your personal experience or any scenario you can imagine.
-3. After completing the conversation, click the **End** button on the **Coach** page, then click **End Recording** on the **Home** page.
+3. After completing the conversation, click the **End** button on the **Coach** page, then click **End Recording** on the **Profile** page.
 
 ### 4. Complete the Evaluation Survey
 
