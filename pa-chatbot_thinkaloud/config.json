@@ -90,16 +90,6 @@
           "required": true
         },
         {
-          "id": "task1-difficulty",
-          "prompt": "How difficult was this task?",
-          "type": "likert",
-          "location": "sidebar",
-          "numItems": 7,
-          "leftLabel": "Very easy",
-          "rightLabel": "Very difficult",
-          "required": true
-        },
-        {
           "id": "task1-time",
           "prompt": "Approximately how long did this task take? Please answer in minutes.",
           "type": "numerical",
@@ -160,16 +150,6 @@
             "No, but I tried",
             "No, I couldn't figure it out"
           ],
-          "required": true
-        },
-        {
-          "id": "task2-difficulty",
-          "prompt": "How difficult was this task?",
-          "type": "likert",
-          "location": "sidebar",
-          "numItems": 7,
-          "leftLabel": "Very easy",
-          "rightLabel": "Very difficult",
           "required": true
         },
         {
