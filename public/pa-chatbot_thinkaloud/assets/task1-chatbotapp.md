@@ -34,4 +34,4 @@ Imagine that you are seeking help from a coach to become more physically active.
 
 ---
 
-Click **Next** to answer the AI coach evaluation survey.
+Please click **Next** to answer the AI coach evaluation survey.

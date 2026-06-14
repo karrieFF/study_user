@@ -7,4 +7,4 @@
 ## Instructions
 - Take your time; there is no rush.
 
-Click "Next" when you are ready.
+Please click "Next" when you are done.

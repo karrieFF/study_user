@@ -29,4 +29,4 @@ Use the same scenario that you used in Conversation 1.
 
 ---
 
-- Click **Next** to answer AI coach evaluation survey.
+- Please click **Next** to answer AI coach evaluation survey.
