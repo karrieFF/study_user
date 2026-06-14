@@ -23,4 +23,4 @@ During this study, we ask you to **think aloud**. This means speaking your thoug
 - **You do not need to plan** - Please do not plan what to say. Just speak naturally as thoughts come up.
 
 ## Ready?
-When you are ready, click "Next" to INSTALL the AI coach app.
+When you are ready, click “Next” to begin the warm-up session.

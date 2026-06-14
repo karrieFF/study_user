@@ -7,13 +7,14 @@ Use the same scenario that you used in Conversation 1.
 ## Your Task
 
 ### 1. Open the audio recording again
-1. Navigate to "Profile" Page.
-2. Click "Start Recording" button in the Profile Page.
+1. Navigate to **Profile** Page.
+2. Click **Start Recording** button on the **Profile** Page.
 
 ### 2. Interact with the second Coach
 1. Back to the **Coach** page, select the appointed coach for Task 2.
 2. Talk with the coach using the same scenario you used for Task 1.
-3. After completing the conversation, click the **End** button in the **Coach** page, then click **End Recording** in the **Profile** page.
+3. After completing the conversation, click the **End** button on the **Coach** page.
+4. Navigate to **Profile** page, then click **End Recording**. 
 
 ### 3. Complete the Evaluation Survey
 
