@@ -102,11 +102,10 @@
     },
     "Survey1": {
       "previousButton": true,
-      "type": "website",
-      "path": "https://redcap01.brisc.utah.edu/ccts/redcap/surveys/",
+      "type": "markdown",
+      "path": "pa-chatbot_thinkaloud/assets/survey-link.md",
       "recordAudio": false,
       "withSidebar": true,
-      "instruction": "1. The access code can be found in the email we sent you before the study.\n2. Please scroll down and click \"Next Page\" in the survey. You will see \"Thank you for taking the survey\" once you finish.\n3. Please complete the survey before clicking the \"Next\" button below.",
       "response": [{
           "id": "survey1-completed",
           "prompt": "Did you successfully complete the task?",
@@ -187,11 +186,10 @@
     },
     "Survey2": {
       "previousButton": true,
-      "type": "website",
-      "path": "https://redcap01.brisc.utah.edu/ccts/redcap/surveys/",
+      "type": "markdown",
+      "path": "pa-chatbot_thinkaloud/assets/survey-link.md",
       "recordAudio": false,
       "withSidebar": true,
-      "instruction": "1. The access code can be found in the email we sent you before the study.\n2. Please scroll down and click \"Next Page\" in the survey. You will see \"Thank you for taking the survey\" once you finish.\n3. Please complete the survey before clicking the \"Next\" button below.",
       "response": [{
           "id": "survey2-completed",
           "prompt": "Did you successfully complete the task?",

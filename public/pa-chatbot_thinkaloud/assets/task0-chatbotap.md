@@ -1,4 +1,4 @@
-# Preparation: Download the AI Coach App
+# Preparation: Install the AI Coach App
 
 ## Your Task
 1. Install the AI coach app.
