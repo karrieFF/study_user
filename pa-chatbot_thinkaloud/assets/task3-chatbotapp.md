@@ -4,9 +4,6 @@
 1. Download and install the Fitbit app.
 2. Connect your Fitbit device to the Fitbit app. 
 
-## Instructions
-- Take your time; there is no rush.
-
 ## Reminders
 - Wear the Fitbit on your non-dominant wrist.
 - For daily tracking, wear it about 1 finger-width above your wrist bone. During workouts, wear it 2–3 finger-widths above your wrist bone.
@@ -22,7 +19,6 @@
 ## Instructions
 1. Please follow the think-aloud protocol during the session.
 2. Use the embedded recording feature in the app to record your think-aloud process while testing it on your own.
-3. Please complete this 7 days after today. I will send you a reminder.
+3. Please complete this 7 days after today. We will send you a reminder.
 
-
-Click "Next" when you are ready.
+Please click "Next" when you are done.
