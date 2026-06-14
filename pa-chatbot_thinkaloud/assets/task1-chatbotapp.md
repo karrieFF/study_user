@@ -18,7 +18,8 @@ Imagine that you are seeking help from a coach to become more physically active.
 
 1. Navigate to the **Coach** page and select the assigned coach for Task 1.
 2. Talk with the coach based on your personal experience or any scenario you can imagine.
-3. After completing the conversation, click the **End** button on the **Coach** page, then click **End Recording** on the **Profile** page.
+3. After completing the conversation, click the **End** button on the **Coach** page.
+4. Navigate to **Profile** page, then click **End Recording**. 
 
 ### 4. Complete the Evaluation Survey
 
