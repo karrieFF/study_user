@@ -216,8 +216,8 @@
     "order": "fixed",
     "components": [
       "Introduction",
-      "ThinkAloudInstructions",
       "Task0_scenario",
+      "ThinkAloudInstructions",
       "Warm-up",
       "Task1_chatbotapp",
       "Survey1",
