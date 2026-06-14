@@ -4,7 +4,7 @@
 1. Download and install the Fitbit app.
 2. Connect your Fitbit device to the Fitbit app. 
 
-## Reminders
+## Instructions
 - Wear the Fitbit on your non-dominant wrist.
 - For daily tracking, wear it about 1 finger-width above your wrist bone. During workouts, wear it 2–3 finger-widths above your wrist bone.
 - The Fitbit Inspire 3 is water-resistant up to 50 meters and is safe to wear while swimming or showering.
