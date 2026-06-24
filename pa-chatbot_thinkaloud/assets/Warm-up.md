@@ -1,7 +1,7 @@
 # Warm-Up: Goal Setting
 
 ## Your Task
-Let's do a warm-up before testing the AI coach app using the think-aloud approach. Imagine that you want to become more physically active. Please say out loud what would go through your mind if you were setting a weekly physical activity goal.
+Let’s do a warm-up before the formal testing. Imagine that you are a physically inactive person who would like to seek help from a health coach. What would you expect from the health coach?
 
 ## Instructions
 - Try to say everything that comes to mind.

@@ -167,22 +167,8 @@
       "type": "markdown",
       "path": "pa-chatbot_thinkaloud/assets/task3-chatbotapp.md",
       "description": "Task 3",
-      "withSidebar": true,
-      "response": [
-        {
-          "id": "task3-completed",
-          "prompt": "Did you successfully complete the task?",
-          "type": "radio",
-          "location": "sidebar",
-          "options": [
-            "Yes, completely",
-            "Yes, partially",
-            "No, but I tried",
-            "No, I couldn't figure it out"
-          ],
-          "required": true
-        }
-      ]
+      "withSidebar": false,
+      "response": []
     },
     "Survey2": {
       "previousButton": true,
@@ -225,7 +211,6 @@
       "Task2_chatbotapp",
       "Survey2",
       "Task3_chatbotapp",
-      "$nasa-tlx.co.nasa-tlx",
       "ThankYou"
     ]
   }
