@@ -16,7 +16,7 @@ During this study, we ask you to **think aloud**. This means speaking your thoug
 - "Hmm, I'm not sure what this means..."
 - "Oh, that's helpful! It gives me exactly what I needed."
 
-## What NOT to Do
+## Helpful Reminders
 - **Please avoid staying silent for long periods.**
 - **You do not need to be perfect** - Imagine you are alone and simply say whatever comes to mind.
 - **You do not need to explain or justify your actions** - Just think aloud. You do not need to justify what you are doing.

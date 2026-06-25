@@ -2,7 +2,7 @@
 
 ## Scenario
 
-Use the same scenario that you used in Conversation 1.
+Use the same scenario you used in Conversation 1.2. Talk with the coach using the same scenario from Task 1.
 
 ## Your Task
 
@@ -12,14 +12,10 @@ Use the same scenario that you used in Conversation 1.
 
 ### 2. Interact with the second Coach
 1. Back to the **Coach** page, select the appointed coach for Task 2.
-2. Talk with the coach using the same scenario you used for Task 1.
 3. After completing the conversation, click the **End** button on the **Coach** page.
 4. Navigate to **Profile** page, then click **End Recording**. 
 
 ### 3. Complete the Evaluation Survey
-
-1. After completing the conversation, fill out the survey on the left side.
-2. Complete the evaluation survey on the next page. You will be asked to enter an access code, which has been sent to your email before the meeting.
 
 ## Instructions
 

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>20 Minute Timer</title>
+    <title>10 Minute Timer</title>
     <style>
         * {
             margin: 0;
@@ -122,8 +122,8 @@
 </head>
 <body>
     <div class="timer-container">
-        <h1>⏱️ 20 Minute Timer</h1>
-        <div class="timer-display" id="timerDisplay">20:00</div>
+        <h1>⏱️ 10 Minute Timer</h1>
+        <div class="timer-display" id="timerDisplay">10:00</div>
         
         <div class="controls">
             <button class="start-btn" id="startBtn" onclick="startTimer()">Start</button>
@@ -135,7 +135,7 @@
     </div>
 
     <script>
-        let totalSeconds = 20 * 60; // 20 minutes in seconds
+        let totalSeconds = 10 * 60; // 10 minutes in seconds
         let remainingSeconds = totalSeconds;
         let timerInterval = null;
         let isRunning = false;
