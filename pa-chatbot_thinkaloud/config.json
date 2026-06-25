@@ -57,8 +57,23 @@
       "previousButton": true,
       "type": "markdown",
       "path": "pa-chatbot_thinkaloud/assets/Warm-up.md",
-      "response": [],
-      "withSidebar": false
+      "response": [
+        {
+          "id": "warmup-comfort",
+          "prompt": "How comfortable did you feel thinking aloud during the warm-up?",
+          "type": "radio",
+          "location": "sidebar",
+          "options": [
+            "Very comfortable",
+            "Somewhat comfortable",
+            "Neutral",
+            "Somewhat uncomfortable",
+            "Very uncomfortable"
+          ],
+          "required": true
+        }
+      ],
+      "withSidebar": true
     },
     "Task0_scenario": {
       "previousButton": true,
@@ -82,10 +97,10 @@
           "type": "radio",
           "location": "sidebar",
           "options": [
-            "Yes, completely",
-            "Yes, partially",
-            "No, but I tried",
-            "No, I couldn't figure it out"
+            "Complete",
+            "Partially complete",
+            "Tried but did not complete",
+            "Could not complete"
           ],
           "required": true
         },
@@ -112,10 +127,10 @@
           "type": "radio",
           "location": "sidebar",
           "options": [
-            "Yes, completely",
-            "Yes, partially",
-            "No, but I tried",
-            "No, I couldn't figure it out"
+            "Complete",
+            "Partially complete",
+            "Tried but did not complete",
+            "Could not complete"
           ],
           "required": true
         }]
@@ -124,8 +139,8 @@
       "previousButton": true,
       "type": "website",
       "path": "timer.html",
-      "description": "20-Minute Rest Break",
-      "instruction": "Please take a 20-minute break before starting the next task.\n\nClick the \"Start\" button to begin the timer.\n\nWhen the timer ends, click the \"Next\" button below to proceed to the next task.",
+      "description": "10-Minute Rest Break",
+      "instruction": "Please take a 10-minute break before starting the next task.\n\nClick the \"Start\" button to begin the timer.\n\nWhen the timer ends, click the \"Next\" button below to proceed to the next task.",
       "recordAudio": false,
       "response": []
     },
@@ -144,10 +159,10 @@
           "type": "radio",
           "location": "sidebar",
           "options": [
-            "Yes, completely",
-            "Yes, partially",
-            "No, but I tried",
-            "No, I couldn't figure it out"
+            "Complete",
+            "Partially complete",
+            "Tried but did not complete",
+            "Could not complete"
           ],
           "required": true
         },
@@ -182,10 +197,10 @@
           "type": "radio",
           "location": "sidebar",
           "options": [
-            "Yes, completely",
-            "Yes, partially",
-            "No, but I tried",
-            "No, I couldn't figure it out"
+            "Complete",
+            "Partially complete",
+            "Tried but did not complete",
+            "Could not complete"
           ],
           "required": true
         }]
@@ -202,9 +217,9 @@
     "order": "fixed",
     "components": [
       "Introduction",
-      "Task0_scenario",
       "ThinkAloudInstructions",
       "Warm-up",
+      "Task0_scenario",
       "Task1_chatbotapp",
       "Survey1",
       "RestBreak",
