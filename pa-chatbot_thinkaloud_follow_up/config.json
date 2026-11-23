@@ -16,6 +16,7 @@
     "urlParticipantIdParam": "REDCAP_ID",
     "contactEmail": "Lingyi.Fu@utah.edu",
     "helpTextPath": "pa-chatbot_thinkaloud_follow_up/assets/help.md",
+    "stylesheetPath": "pa-chatbot_thinkaloud_follow_up/assets/styles.css",
     "logoPath": "revisitAssets/revisitLogoSquare.svg",
     "logoTo": "/",
     "withProgressBar": false,
