@@ -14,4 +14,4 @@ If you have any questions about this study, please contact: Lingyi.Fu@utah.edu
 
 ---
 
-**You may now click "Next" to end the study.**
+Please click **Next** to submit your responses and finish today's session.

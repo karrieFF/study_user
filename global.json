@@ -50,7 +50,8 @@
     "test-randomization",
     "test-skip-logic",
     "test-step-logic",
-    "pa-chatbot_thinkaloud"
+    "pa-chatbot_thinkaloud",
+    "pa-chatbot_thinkaloud_follow_up"
   ],
   "configs": {
     "tutorial": {
@@ -227,6 +228,9 @@
     },
     "pa-chatbot_thinkaloud": {
       "path": "pa-chatbot_thinkaloud/config.json"
+    },
+    "pa-chatbot_thinkaloud_follow_up": {
+      "path": "pa-chatbot_thinkaloud_follow_up/config.json"
     }
   }
 }
