@@ -1,0 +1,204 @@
+{
+  "$schema": "https://raw.githubusercontent.com/revisit-studies/study/v2.3.1/src/parser/StudyConfigSchema.json",
+  "studyMetadata": {
+    "title": "AI Health Coach Think-Aloud Study",
+    "version": "1.0.0",
+    "authors": [
+      "Lingyi Fu"
+    ],
+    "date": "2025-11-12",
+    "description": "A think-aloud usability study evaluating a chatbot app for promoting physical activity",
+    "organizations": [
+      "University of Utah"
+    ]
+  },
+  "uiConfig": {
+    "urlParticipantIdParam": "REDCAP_ID",
+    "contactEmail": "Lingyi.Fu@utah.edu",
+    "helpTextPath": "pa-chatbot_thinkaloud_follow_up/assets/help.md",
+    "logoPath": "revisitAssets/revisitLogoSquare.svg",
+    "logoTo": "/",
+    "withProgressBar": false,
+    "autoDownloadStudy": false,
+    "withSidebar": false,
+    "enumerateQuestions": true,
+    "recordAudio": false,
+    "windowEventDebounceTime": 200
+  },
+  "importedLibraries": [
+    "mic-check",
+    "nasa-tlx",
+    "sus",
+    "my-surveys"
+  ],
+  "components": {
+    "Introduction": {
+      "previousButton": true,
+      "type": "markdown",
+      "path": "pa-chatbot_thinkaloud_follow_up/assets/introduction.md",
+      "response": [
+        {
+          "id": "manual-redcap-id",
+          "prompt": "Before we begin, please enter your Research ID (S1xxx):",
+          "type": "shortText",
+          "required": true
+        }
+      ],
+      "withSidebar": false
+    },
+    "ThinkAloudInstructions": {
+      "previousButton": true,
+      "type": "markdown",
+      "path": "pa-chatbot_thinkaloud_follow_up/assets/thinkaloud-instructions.md",
+      "response": [],
+      "withSidebar": false
+    },
+    "GettingStarted": {
+      "previousButton": true,
+      "type": "markdown",
+      "path": "pa-chatbot_thinkaloud_follow_up/assets/getting-started.md",
+      "description": "Getting Started: Expectations of a Health Coach",
+      "response": [],
+      "withSidebar": false
+    },
+    "Task0_Preparation": {
+      "previousButton": true,
+      "type": "markdown",
+      "path": "pa-chatbot_thinkaloud_follow_up/assets/task0-preparation.md",
+      "description": "Preparation: Install the AI Coach App",
+      "response": [],
+      "withSidebar": false
+    },
+    "Task1_ExploreApp": {
+      "previousButton": true,
+      "type": "markdown",
+      "path": "pa-chatbot_thinkaloud_follow_up/assets/task1-explore-app.md",
+      "description": "Task 1: Explore the App",
+      "response": [],
+      "withSidebar": false
+    },
+    "Task2_Conversation1": {
+      "previousButton": true,
+      "type": "markdown",
+      "path": "pa-chatbot_thinkaloud_follow_up/assets/task2-conversation1.md",
+      "description": "Task 2: Conversation 1",
+      "instruction": "Please complete the task while thinking aloud. Describe what you are doing and what you are thinking as you interact with the chatbot.",
+      "recordAudio": false,
+      "withSidebar": true,
+      "response": [
+        {
+          "id": "conversation1-completed",
+          "prompt": "Did you successfully complete the task?",
+          "type": "radio",
+          "location": "sidebar",
+          "options": [
+            "Complete",
+            "Partially complete",
+            "Tried but did not complete",
+            "Could not complete"
+          ],
+          "required": true
+        },
+        {
+          "id": "conversation1-time",
+          "prompt": "Approximately how long did this task take? Please answer in minutes.",
+          "type": "numerical",
+          "location": "sidebar",
+          "min": 0,
+          "max": 60,
+          "required": true
+        }
+      ]
+    },
+    "RestBreak": {
+      "previousButton": true,
+      "type": "website",
+      "path": "timer.html",
+      "description": "10-Minute Rest Break",
+      "instruction": "Please take a 10-minute break before starting the next task.\n\nClick the \"Start\" button to begin the timer.\n\nWhen the timer ends, click the \"Next\" button below to proceed to the next task.",
+      "recordAudio": false,
+      "response": []
+    },
+    "Task3_Conversation2": {
+      "previousButton": true,
+      "type": "markdown",
+      "path": "pa-chatbot_thinkaloud_follow_up/assets/task3-conversation2.md",
+      "description": "Task 3: Conversation 2",
+      "instruction": "Please complete the task while thinking aloud. Describe what you are doing and what you are thinking as you interact with the chatbot.",
+      "recordAudio": false,
+      "withSidebar": true,
+      "response": [
+        {
+          "id": "conversation2-completed",
+          "prompt": "Did you successfully complete the task?",
+          "type": "radio",
+          "location": "sidebar",
+          "options": [
+            "Complete",
+            "Partially complete",
+            "Tried but did not complete",
+            "Could not complete"
+          ],
+          "required": true
+        },
+        {
+          "id": "conversation2-time",
+          "prompt": "Approximately how long did this task take? Please answer in minutes.",
+          "type": "numerical",
+          "location": "sidebar",
+          "min": 0,
+          "max": 60,
+          "required": true
+        }
+      ]
+    },
+    "Task4_EndRecording": {
+      "previousButton": true,
+      "type": "markdown",
+      "path": "pa-chatbot_thinkaloud_follow_up/assets/task4-end-recording.md",
+      "description": "Task 4: End Recording",
+      "withSidebar": false,
+      "response": []
+    },
+    "Test1_FollowUp": {
+      "previousButton": true,
+      "type": "markdown",
+      "path": "pa-chatbot_thinkaloud_follow_up/assets/test1-followup.md",
+      "description": "Test 1 - Follow-up",
+      "withSidebar": false,
+      "response": []
+    },
+    "Test2_Overview": {
+      "previousButton": true,
+      "type": "markdown",
+      "path": "pa-chatbot_thinkaloud_follow_up/assets/test2-overview.md",
+      "description": "Test 2",
+      "withSidebar": false,
+      "response": []
+    },
+    "ThankYou": {
+      "previousButton": true,
+      "type": "markdown",
+      "path": "pa-chatbot_thinkaloud_follow_up/assets/thankyou.md",
+      "response": [],
+      "withSidebar": false
+    }
+  },
+  "sequence": {
+    "order": "fixed",
+    "components": [
+      "Introduction",
+      "ThinkAloudInstructions",
+      "GettingStarted",
+      "Task0_Preparation",
+      "Task1_ExploreApp",
+      "Task2_Conversation1",
+      "RestBreak",
+      "Task3_Conversation2",
+      "Task4_EndRecording",
+      "Test1_FollowUp",
+      "Test2_Overview",
+      "ThankYou"
+    ]
+  }
+}
