@@ -1,13 +1,13 @@
 {
   "$schema": "https://raw.githubusercontent.com/revisit-studies/study/v2.3.1/src/parser/StudyConfigSchema.json",
   "studyMetadata": {
-    "title": "AI Health Coach Think-Aloud Study",
+    "title": "AI Health Coach Follow-Up Study",
     "version": "1.0.0",
     "authors": [
       "Lingyi Fu"
     ],
     "date": "2025-11-12",
-    "description": "A think-aloud usability study evaluating a chatbot app for promoting physical activity",
+    "description": "Follow-up think-aloud test of the AI health coach, about one week after the first session",
     "organizations": [
       "University of Utah"
     ]
