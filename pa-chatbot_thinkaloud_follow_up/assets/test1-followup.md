@@ -33,4 +33,4 @@
   </div>
 </div>
 
-Please click **Next** to learn about Test 2.
+Please click **Next** to see what happens next.

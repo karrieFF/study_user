@@ -2,7 +2,7 @@
 
 ## Scenario
 
-Imagine you are seeking help from a coach to become more physically active. Talk with the coach based on your own experience, or use any scenario you can imagine.
+Imagine you are a physically inactive person with low motivation to become more physically active and are seeking support from a health coach. Engage in a conversation with the coach based on your own experiences or any hypothetical scenario you can imagine.
 
 ## Your Task
 

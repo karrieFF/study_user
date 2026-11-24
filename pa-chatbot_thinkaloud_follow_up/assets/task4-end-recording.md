@@ -20,4 +20,4 @@
 
 ---
 
-Please click **Next** to see the instructions for your follow-up session.
+Please click **Next** to see what happens next.

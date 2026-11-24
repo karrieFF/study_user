@@ -41,12 +41,6 @@ Use the same scenario you used in Conversation 1.
 - If you get stuck, that's okay — just describe what you're trying to do.
 - When you're done (or if you can't complete it), answer the questions on the left.
 
-### 2. Complete the Evaluation Survey
-
-1. The survey link will be sent through Zoom chat.
-2. In the survey, please scroll down and click **Next Page** to continue. You will see **Thank you for taking the survey** once you have finished.
-3. After completing the survey, please return to this page and click the **Next** button below.
-
 ---
 
-Once you have finished the survey, please click **Next** to end the audio recording.
+Once you have ended the conversation and answered the questions on the left, please click **Next** to complete the evaluation survey.

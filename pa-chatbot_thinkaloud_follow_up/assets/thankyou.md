@@ -2,16 +2,11 @@
 
 ## Study Complete
 
-Thank you for participating in this study! Your feedback is invaluable and will help us improve the chatbot.
-
-## What Happens Next?
-- Your responses and recordings will be analyzed.
-- All data will be kept confidential and anonymized.
-- Results will be used for research purposes only.
+Thank you for completing the follow-up test! Your feedback is invaluable and will help us improve the AI health coach.
 
 ## Questions?
 If you have any questions about this study, please contact: Lingyi.Fu@utah.edu
 
 ---
 
-Please click **Next** to submit your responses and finish today's session.
+Please click **Next** to finish the follow-up testing.

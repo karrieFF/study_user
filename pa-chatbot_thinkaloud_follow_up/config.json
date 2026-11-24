@@ -54,19 +54,11 @@
       "response": [],
       "withSidebar": false
     },
-    "GettingStarted": {
-      "previousButton": true,
-      "type": "markdown",
-      "path": "pa-chatbot_thinkaloud_follow_up/assets/getting-started.md",
-      "description": "Getting Started: Expectations of a Health Coach",
-      "response": [],
-      "withSidebar": false
-    },
     "Task0_Preparation": {
       "previousButton": true,
       "type": "markdown",
       "path": "pa-chatbot_thinkaloud_follow_up/assets/task0-preparation.md",
-      "description": "Preparation: Install the AI Coach App",
+      "description": "Preparation: Sign In and Start Recording",
       "response": [],
       "withSidebar": false
     },
@@ -111,12 +103,21 @@
         }
       ]
     },
+    "Survey1": {
+      "previousButton": true,
+      "type": "markdown",
+      "path": "pa-chatbot_thinkaloud_follow_up/assets/survey-link.md",
+      "description": "Survey after Conversation 1",
+      "withSidebar": false,
+      "response": []
+    },
     "RestBreak": {
       "previousButton": true,
       "type": "website",
       "path": "timer.html",
-      "description": "10-Minute Rest Break",
-      "instruction": "Please take a 10-minute break before starting the next task.\n\nClick the \"Start\" button to begin the timer.\n\nWhen the timer ends, click the \"Next\" button below to proceed to the next task.",
+      "description": "Optional Rest Break",
+      "instructionLocation": "aboveStimulus",
+      "instruction": "You may take an optional break of up to 10 minutes before the next conversation.\n\n- **To take a break:** click **Start** to begin the timer. When you are ready, click **Next** below.\n- **To skip the break:** click **Next** below to continue right away.",
       "recordAudio": false,
       "response": []
     },
@@ -153,6 +154,14 @@
         }
       ]
     },
+    "Survey2": {
+      "previousButton": true,
+      "type": "markdown",
+      "path": "pa-chatbot_thinkaloud_follow_up/assets/survey-link.md",
+      "description": "Survey after Conversation 2",
+      "withSidebar": false,
+      "response": []
+    },
     "Task4_EndRecording": {
       "previousButton": true,
       "type": "markdown",
@@ -161,19 +170,11 @@
       "withSidebar": false,
       "response": []
     },
-    "Test1_FollowUp": {
-      "previousButton": true,
-      "type": "markdown",
-      "path": "pa-chatbot_thinkaloud_follow_up/assets/test1-followup.md",
-      "description": "Test 1 - Follow-up",
-      "withSidebar": false,
-      "response": []
-    },
     "Test2_Overview": {
       "previousButton": true,
       "type": "markdown",
       "path": "pa-chatbot_thinkaloud_follow_up/assets/test2-overview.md",
-      "description": "Test 2",
+      "description": "What Happens Next",
       "withSidebar": false,
       "response": []
     },
@@ -190,14 +191,14 @@
     "components": [
       "Introduction",
       "ThinkAloudInstructions",
-      "GettingStarted",
       "Task0_Preparation",
       "Task1_ExploreApp",
       "Task2_Conversation1",
+      "Survey1",
       "RestBreak",
       "Task3_Conversation2",
+      "Survey2",
       "Task4_EndRecording",
-      "Test1_FollowUp",
       "Test2_Overview",
       "ThankYou"
     ]

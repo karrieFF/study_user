@@ -1,4 +1,4 @@
-# Preparation: Install the AI Coach App
+# Preparation: Set Up the App and Start Recording
 
 ## Your Task
 
@@ -37,6 +37,14 @@ Complete the steps below on your phone.
     <div style="font-size: 14px; color: #495057; margin-bottom: 12px; min-height: 42px;">After signing in successfully, you will see your <strong>Profile</strong> page.</div>
     <img src="pa-chatbot_thinkaloud/assets/signin-success-profile.jpg" alt="Profile page after successful sign-in" style="display: block; width: auto; max-width: 100%; height: 480px; object-fit: contain; margin: 0 auto; border-radius: 10px; border: 1px solid #ced4da;" />
   </div>
+  <div style="border: 2px solid #e61e1e; border-radius: 12px; padding: 16px; background: #fff5f5;">
+    <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 8px;">
+      <span style="display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 50%; background: #e61e1e; color: white; font-weight: 700; flex-shrink: 0;">5</span>
+      <strong style="font-size: 16px;">Start Recording</strong>
+    </div>
+    <div style="font-size: 14px; color: #495057; margin-bottom: 12px; min-height: 42px;">On the <strong>Profile</strong> page, scroll to <strong>Session Recording</strong> and tap <strong>Start Recording</strong>.</div>
+    <img src="pa-chatbot_thinkaloud/assets/start-recording-only.jpg" alt="Profile page with the Start Recording button highlighted" style="display: block; width: auto; max-width: 100%; height: 480px; object-fit: contain; margin: 0 auto; border-radius: 10px; border: 1px solid #ced4da;" />
+  </div>
 </div>
 
-Once you are signed in and can see your **Profile** page, please click **Next** to start exploring the app.
+Once the recording has started, please click **Next** to start exploring the app.
