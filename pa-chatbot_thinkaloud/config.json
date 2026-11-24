@@ -75,15 +75,40 @@
       "type": "markdown",
       "path": "pa-chatbot_thinkaloud/assets/task1-explore-app.md",
       "description": "Task 1: Explore the App",
-      "response": [],
-      "withSidebar": false
+      "instruction": "Think aloud while you explore the Home, Alerts, Activity, and Coach pages. Describe what you are doing, what you notice, and what you think of the app.",
+      "recordAudio": false,
+      "withSidebar": true,
+      "response": [
+        {
+          "id": "explore-completed",
+          "prompt": "Did you successfully complete the task?",
+          "type": "radio",
+          "location": "sidebar",
+          "options": [
+            "Complete",
+            "Partially complete",
+            "Tried but did not complete",
+            "Could not complete"
+          ],
+          "required": true
+        },
+        {
+          "id": "explore-time",
+          "prompt": "Approximately how long did this task take? Please answer in minutes.",
+          "type": "numerical",
+          "location": "sidebar",
+          "min": 0,
+          "max": 60,
+          "required": true
+        }
+      ]
     },
     "Task2_Conversation1": {
       "previousButton": true,
       "type": "markdown",
       "path": "pa-chatbot_thinkaloud/assets/task2-conversation1.md",
       "description": "Task 2: Conversation 1",
-      "instruction": "Please complete the task while thinking aloud. Describe what you are doing and what you are thinking as you interact with the chatbot.",
+      "instruction": "**While you chat, say out loud:**\n\n- What you reply to the coach\n- What you think of the coach's replies\n- If stuck, what you're trying to do",
       "recordAudio": false,
       "withSidebar": true,
       "response": [
@@ -126,7 +151,7 @@
       "type": "markdown",
       "path": "pa-chatbot_thinkaloud/assets/task3-conversation2.md",
       "description": "Task 3: Conversation 2",
-      "instruction": "Please complete the task while thinking aloud. Describe what you are doing and what you are thinking as you interact with the chatbot.",
+      "instruction": "**While you chat, say out loud:**\n\n- What you reply to the coach\n- What you think of the coach's replies\n- If stuck, what you're trying to do",
       "recordAudio": false,
       "withSidebar": true,
       "response": [
