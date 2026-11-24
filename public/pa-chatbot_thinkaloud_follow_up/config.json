@@ -83,15 +83,6 @@
             "Could not complete"
           ],
           "required": true
-        },
-        {
-          "id": "explore-time",
-          "prompt": "Approximately how long did this task take? Please answer in minutes.",
-          "type": "numerical",
-          "location": "sidebar",
-          "min": 0,
-          "max": 60,
-          "required": true
         }
       ]
     },
@@ -115,15 +106,6 @@
             "Tried but did not complete",
             "Could not complete"
           ],
-          "required": true
-        },
-        {
-          "id": "conversation1-time",
-          "prompt": "Approximately how long did this task take? Please answer in minutes.",
-          "type": "numerical",
-          "location": "sidebar",
-          "min": 0,
-          "max": 60,
           "required": true
         }
       ]
@@ -166,15 +148,6 @@
             "Tried but did not complete",
             "Could not complete"
           ],
-          "required": true
-        },
-        {
-          "id": "conversation2-time",
-          "prompt": "Approximately how long did this task take? Please answer in minutes.",
-          "type": "numerical",
-          "location": "sidebar",
-          "min": 0,
-          "max": 60,
           "required": true
         }
       ]
