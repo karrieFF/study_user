@@ -2,7 +2,7 @@
 
 ## Scenario
 
-Imagine you are seeking help from a coach to become more physically active. Talk with the coach based on your own experience, or use any scenario you can imagine.
+It has been about a week since your first coaching session. Imagine you are checking in with the coach about your progress toward becoming more physically active. Talk with the coach about your past week based on your own experience: what went well, what was challenging, and what you would like to work on next.
 
 ## Your Task
 
@@ -16,7 +16,7 @@ Imagine you are seeking help from a coach to become more physically active. Talk
     </div>
     <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 16px;">
       <span style="display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 50%; background: #e61e1e; color: white; font-weight: 700; flex-shrink: 0;">2</span>
-      <span style="font-size: 16px;">Select the assigned coach for Conversation 1.</span>
+      <span style="font-size: 16px;">Select the assigned coach for Conversation 1 (Check email sent by Lingyi).</span>
     </div>
     <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 16px;">
       <span style="display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 50%; background: #e61e1e; color: white; font-weight: 700; flex-shrink: 0;">3</span>
@@ -40,12 +40,6 @@ Imagine you are seeking help from a coach to become more physically active. Talk
 - If you get stuck, that's okay — just describe what you're trying to do.
 - When you're done (or if you can't complete it), answer the questions on the left.
 
-### 2. Complete the Evaluation Survey
-
-1. The survey link will be sent through Zoom chat.
-2. In the survey, please scroll down and click **Next Page** to continue. You will see **Thank you for taking the survey** once you have finished.
-3. After completing the survey, please return to this page and click the **Next** button below.
-
 ---
 
-Once you have finished the survey, please click **Next** to take a short break.
+Once you have ended the conversation and answered the questions on the left, please click **Next** to complete the evaluation survey.

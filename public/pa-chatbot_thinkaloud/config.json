@@ -66,7 +66,7 @@
       "previousButton": true,
       "type": "markdown",
       "path": "pa-chatbot_thinkaloud/assets/task0-preparation.md",
-      "description": "Preparation: Install the AI Coach App",
+      "description": "Preparation: Set Up the App and Start Recording",
       "response": [],
       "withSidebar": false
     },
@@ -115,8 +115,9 @@
       "previousButton": true,
       "type": "website",
       "path": "timer.html",
-      "description": "10-Minute Rest Break",
-      "instruction": "Please take a 10-minute break before starting the next task.\n\nClick the \"Start\" button to begin the timer.\n\nWhen the timer ends, click the \"Next\" button below to proceed to the next task.",
+      "description": "Optional Rest Break",
+      "instructionLocation": "aboveStimulus",
+      "instruction": "You may take an optional break of up to 10 minutes before the next conversation.\n\n- **To take a break:** click **Start** to begin the timer. When you are ready, click **Next** below.\n- **To skip the break:** click **Next** below to continue right away.",
       "recordAudio": false,
       "response": []
     },
@@ -173,7 +174,7 @@
       "previousButton": true,
       "type": "markdown",
       "path": "pa-chatbot_thinkaloud/assets/test2-overview.md",
-      "description": "Test 2",
+      "description": "What Happens Next",
       "withSidebar": false,
       "response": []
     },

@@ -1,10 +1,10 @@
-# Survey
+# Coach Evaluation Survey
 
-Please complete the survey using the link below.
+Please tell us about the conversation you just had with the coach.
 
-1. **Right-click** the survey link and open it in a new window.
-2. The access code will be sent through Zoom chat.
-3. In the survey, please scroll down and click **Next Page** to continue. You will see **Thank you for taking the survey** once you have finished.
-4. After completing the survey, please return to this page and click the **Next** button below.
+1. Click the **Open the survey** button below. The survey will open in a **new tab**, and this page will stay open.
+2. Enter the **access code** that Lingyi sent you by email.
+3. Scroll down and click **Next Page** to move through the survey. You are finished when you see **Thank you for taking the survey**.
+4. Close the survey tab, come back to this page, and click **Next** to continue.
 
-### 👉 [Open the survey in a new tab](https://redcap01.brisc.utah.edu/ccts/redcap/surveys/)
+<a href="https://redcap01.brisc.utah.edu/ccts/redcap/surveys/" target="_blank" rel="noopener noreferrer" style="display: inline-block; margin: 8px 0 16px; padding: 12px 28px; background: #009688; color: #ffffff; border-radius: 8px; font-size: 17px; font-weight: 700; text-decoration: none;">👉 Open the survey ↗</a>
