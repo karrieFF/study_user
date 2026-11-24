@@ -3,7 +3,7 @@
 Please tell us about the conversation you just had with the coach.
 
 1. Click the **Open the survey** button below. The survey will open in a **new tab**, and this page will stay open.
-2. Enter the **access code** that Lingyi sent you by email.
+2. Enter the **access code** (check the email sent by Lingyi).
 3. Scroll down and click **Next Page** to move through the survey. You are finished when you see **Thank you for taking the survey**.
 4. Close the survey tab, come back to this page, and click **Next** to continue.
 
