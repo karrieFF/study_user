@@ -92,7 +92,7 @@ export function fillPlaceholders(text: string) {
     survey1Step: surveyStep(link.survey1, 1),
     survey2Step: surveyStep(link.survey2, 2),
     linkWarning: missing
-      ? '<div style="max-width: 820px; background: #fff3bf; border: 2px solid #fab005; border-radius: 10px; padding: 12px 16px; margin: 0 0 20px; font-size: 15px;">⚠️ We could not find all of your personal study details. Please open this study using the <strong>personal link in the email from Lingyi</strong>. If you continue from here, use the email to find your coaches and survey links.</div>'
+      ? '<div style="max-width: 820px; background: #fff3bf; border: 2px solid #fab005; border-radius: 10px; padding: 12px 16px; margin: 0 0 20px; font-size: 15px;">⚠️ We could not find all of your personal study details. Please open this study using the <strong>personal link in the email from Lingyi</strong>.</div>'
       : '',
   };
   return text.replace(/\{\{(\w+)\}\}/g, (match, key: string) => (key in values ? values[key] : match));
