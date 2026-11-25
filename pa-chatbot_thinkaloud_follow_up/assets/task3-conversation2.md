@@ -4,7 +4,7 @@
   <span style="font-size: 24px; line-height: 1;">💬</span>
   <div style="font-size: 16px; color: #212529; line-height: 1.55;">
     <div style="font-weight: 700; font-size: 17px; margin-bottom: 4px;">Remember to think aloud!</div>
-    <div style="margin-bottom: 6px;">Say <strong>what you reply to the coach</strong> and <strong>what you think of the coach's replies</strong>.</div>
+    <div style="margin-bottom: 6px;">Say <strong>what you think of the coach's replies</strong>.</div>
     <div style="font-style: italic; color: #495057; margin-bottom: 6px;">e.g., "That's helpful…" · "That feels like too much…" · "It didn't get what I meant…"</div>
     <div style="color: #495057;">Stuck? Just describe what you're trying to do. There's no rush.</div>
   </div>
@@ -26,7 +26,7 @@ Use the same scenario you used in Conversation 1.
     </div>
     <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 16px;">
       <span style="display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 50%; background: #e61e1e; color: white; font-weight: 700; flex-shrink: 0;">2</span>
-      <span style="font-size: 16px;">Select the assigned coach for Conversation 2.</span>
+      <span style="font-size: 16px;">Select <strong>{{coach2}}</strong> in the coach menu.</span>
     </div>
     <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 16px;">
       <span style="display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 50%; background: #e61e1e; color: white; font-weight: 700; flex-shrink: 0;">3</span>

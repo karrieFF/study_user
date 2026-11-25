@@ -2,13 +2,24 @@
 
 ### What to do
 
-Briefly explore the **Activity** page, which now shows the activity data recorded by your Fitbit.
+Open the **Activity** page in the app and review both parts below.
+
+**Part 1: View your Fitbit data**
+
+Briefly explore the charts on the **Activity** page, which now show the activity data recorded by your Fitbit.
+
+**Part 2: Check your SMART goal and log an activity**
+
+1. Scroll to the **SMART Goal** section and review your goal and this week's progress.
+2. Tap a day in **This week** to open it.
+3. Under **My daily report**, enter an activity you did that day, for example aerobic minutes or muscle-strengthening exercise (activities your Fitbit may not capture, like resistance training, are especially helpful).
+4. Tap **Save report** and check that your entry shows up.
 
 <div style="max-width: 820px; display: flex; gap: 12px; align-items: flex-start; background: #fff3bf; border: 2px solid #fab005; border-radius: 10px; padding: 14px 16px; margin: 8px 0 24px;">
   <span style="font-size: 24px; line-height: 1;">💬</span>
   <div style="font-size: 16px; color: #212529; line-height: 1.6;">
     <div style="font-weight: 700; font-size: 17px; margin-bottom: 4px;">Remember to think aloud!</div>
-    <div style="margin-bottom: 8px;">Describe what you are doing, what you notice in your Fitbit activity data, and what you think of the page. For example:</div>
+    <div style="margin-bottom: 8px;">Describe what you are doing, what you notice in your Fitbit activity data, how easy it is to log your activity, and what you think of the page. For example:</div>
     <div style="margin-bottom: 4px;">• What is your overall impression of this page?</div>
     <div style="margin-bottom: 4px;">• Was anything confusing or difficult to use on this page?</div>
     <div>• What suggestions do you have for improving this page, or any other page?</div>

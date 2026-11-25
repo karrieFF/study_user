@@ -35,14 +35,18 @@
   "components": {
     "Introduction": {
       "previousButton": true,
-      "type": "markdown",
-      "path": "pa-chatbot_thinkaloud_follow_up/assets/introduction.md",
+      "type": "react-component",
+      "path": "pa-chatbot_thinkaloud_follow_up/assets/PersonalizedMarkdown.tsx",
+      "parameters": {
+        "path": "pa-chatbot_thinkaloud_follow_up/assets/introduction.md"
+      },
       "response": [
         {
           "id": "manual-redcap-id",
           "prompt": "Before we begin, please enter your Research ID (S1xxx):",
           "type": "shortText",
-          "required": true
+          "required": true,
+          "paramCapture": "REDCAP_ID"
         }
       ],
       "withSidebar": false
@@ -59,15 +63,50 @@
       "type": "markdown",
       "path": "pa-chatbot_thinkaloud_follow_up/assets/task0-preparation.md",
       "description": "Preparation: Sign In and Start Recording",
-      "response": [],
-      "withSidebar": false
+      "instruction": "Complete the four steps on your phone: sign out, sign back in, wake up the coach, and start the session recording. Then answer the questions below.",
+      "response": [
+        {
+          "id": "prep-signed-in",
+          "prompt": "Did you sign out and sign back in to the app?",
+          "type": "radio",
+          "location": "sidebar",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "id": "prep-coach-awake",
+          "prompt": "Did you wake up the coach (send \"hi\" on the Coach page)?",
+          "type": "radio",
+          "location": "sidebar",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        },
+        {
+          "id": "prep-recording-started",
+          "prompt": "Did you start the session recording on your phone?",
+          "type": "radio",
+          "location": "sidebar",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "required": true
+        }
+      ],
+      "withSidebar": true
     },
     "Task1_ExploreApp": {
       "previousButton": true,
       "type": "markdown",
       "path": "pa-chatbot_thinkaloud_follow_up/assets/task1-explore-app.md",
       "description": "Task 1: Explore the App",
-      "instruction": "Think aloud while you explore the Activity page. Describe what you are doing, what you notice in your Fitbit activity data, and what you think of the page.",
+      "instruction": "**Part 1:** View your Fitbit data on the Activity page.\n\n**Part 2:** In the SMART Goal section, tap a day, enter an activity under My daily report, and tap Save report.\n\nThink aloud as you go: what you notice, how easy it is to log your activity, and what you think of the page.",
       "recordAudio": false,
       "withSidebar": true,
       "response": [
@@ -79,22 +118,43 @@
           "options": [
             "Complete",
             "Partially complete",
-            "Tried but did not complete",
             "Could not complete"
           ],
           "required": true
+        },
+        {
+          "id": "explore-reason",
+          "prompt": "If you did not fully complete the task, what got in the way?",
+          "type": "longText",
+          "location": "sidebar",
+          "required": false
         }
       ]
     },
     "Task2_Conversation1": {
       "previousButton": true,
-      "type": "markdown",
-      "path": "pa-chatbot_thinkaloud_follow_up/assets/task2-conversation1.md",
+      "type": "react-component",
+      "path": "pa-chatbot_thinkaloud_follow_up/assets/PersonalizedMarkdown.tsx",
+      "parameters": {
+        "path": "pa-chatbot_thinkaloud_follow_up/assets/task2-conversation1.md"
+      },
       "description": "Task 2: Conversation 1",
-      "instruction": "**While you chat, say out loud:**\n\n- What you reply to the coach\n- What you think of the coach's replies\n- If stuck, what you're trying to do",
+      "instruction": "**While you chat, say out loud:**\n\n- What you think of the coach's replies\n- If stuck, what you're trying to do",
       "recordAudio": false,
       "withSidebar": true,
       "response": [
+        {
+          "id": "conversation1-coach",
+          "prompt": "Which health coach did you select?",
+          "type": "dropdown",
+          "placeholder": "Select a coach",
+          "options": [
+            "Luna",
+            "Nova"
+          ],
+          "location": "sidebar",
+          "required": true
+        },
         {
           "id": "conversation1-completed",
           "prompt": "Did you successfully complete the task?",
@@ -103,17 +163,26 @@
           "options": [
             "Complete",
             "Partially complete",
-            "Tried but did not complete",
             "Could not complete"
           ],
           "required": true
+        },
+        {
+          "id": "conversation1-reason",
+          "prompt": "If you did not fully complete the task, what got in the way?",
+          "type": "longText",
+          "location": "sidebar",
+          "required": false
         }
       ]
     },
     "Survey1": {
       "previousButton": true,
-      "type": "markdown",
-      "path": "pa-chatbot_thinkaloud_follow_up/assets/survey-link.md",
+      "type": "react-component",
+      "path": "pa-chatbot_thinkaloud_follow_up/assets/PersonalizedMarkdown.tsx",
+      "parameters": {
+        "path": "pa-chatbot_thinkaloud_follow_up/assets/survey-link-conversation1.md"
+      },
       "description": "Survey after Conversation 1",
       "withSidebar": false,
       "response": []
@@ -130,13 +199,28 @@
     },
     "Task3_Conversation2": {
       "previousButton": true,
-      "type": "markdown",
-      "path": "pa-chatbot_thinkaloud_follow_up/assets/task3-conversation2.md",
+      "type": "react-component",
+      "path": "pa-chatbot_thinkaloud_follow_up/assets/PersonalizedMarkdown.tsx",
+      "parameters": {
+        "path": "pa-chatbot_thinkaloud_follow_up/assets/task3-conversation2.md"
+      },
       "description": "Task 3: Conversation 2",
-      "instruction": "**While you chat, say out loud:**\n\n- What you reply to the coach\n- What you think of the coach's replies\n- If stuck, what you're trying to do",
+      "instruction": "**While you chat, say out loud:**\n\n- What you think of the coach's replies\n- If stuck, what you're trying to do",
       "recordAudio": false,
       "withSidebar": true,
       "response": [
+        {
+          "id": "conversation2-coach",
+          "prompt": "Which health coach did you select?",
+          "type": "dropdown",
+          "placeholder": "Select a coach",
+          "options": [
+            "Luna",
+            "Nova"
+          ],
+          "location": "sidebar",
+          "required": true
+        },
         {
           "id": "conversation2-completed",
           "prompt": "Did you successfully complete the task?",
@@ -145,17 +229,26 @@
           "options": [
             "Complete",
             "Partially complete",
-            "Tried but did not complete",
             "Could not complete"
           ],
           "required": true
+        },
+        {
+          "id": "conversation2-reason",
+          "prompt": "If you did not fully complete the task, what got in the way?",
+          "type": "longText",
+          "location": "sidebar",
+          "required": false
         }
       ]
     },
     "Survey2": {
       "previousButton": true,
-      "type": "markdown",
-      "path": "pa-chatbot_thinkaloud_follow_up/assets/survey-link.md",
+      "type": "react-component",
+      "path": "pa-chatbot_thinkaloud_follow_up/assets/PersonalizedMarkdown.tsx",
+      "parameters": {
+        "path": "pa-chatbot_thinkaloud_follow_up/assets/survey-link-conversation2.md"
+      },
       "description": "Survey after Conversation 2",
       "withSidebar": false,
       "response": []

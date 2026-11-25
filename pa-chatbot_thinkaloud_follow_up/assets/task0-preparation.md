@@ -39,4 +39,4 @@ Complete the steps below on your phone.
   </div>
 </div>
 
-Once the recording has started, please click **Next** to start exploring the app.
+Once the recording has started, answer the questions on the left and click **Next** to start exploring the app.
