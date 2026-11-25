@@ -84,15 +84,22 @@ function surveyStep(url: string | null, n: 1 | 2) {
     : `Open the email from Lingyi and click the <strong>Conversation ${n} survey</strong> link. The survey will open in a <strong>new tab</strong>, and this page will stay open.`;
 }
 
+// Coach names (Luna / Nova) are shown in red so participants can spot them easily.
+function coachName(name: string | null) {
+  return name ? `<span style="color: #e03131;">${name}</span>` : null;
+}
+
 export function fillPlaceholders(text: string) {
   const link = readLink();
   const missing = !link.studyId || !link.coach1 || !link.survey1 || !link.survey2;
+  const coach1 = coachName(link.coach1);
+  const coach2 = coachName(link.coach2);
   const values: Record<string, string> = {
     studyId: link.studyId ?? '—',
-    coach1: link.coach1 ?? 'the coach assigned to you for Conversation 1 (see the email from Lingyi)',
-    coach2: link.coach2 ?? 'the coach assigned to you for Conversation 2 (see the email from Lingyi)',
-    coach1Short: link.coach1 ?? 'AI Coach 1',
-    coach2Short: link.coach2 ?? 'AI Coach 2',
+    coach1: coach1 ?? 'the coach assigned to you for Conversation 1 (see the email from Lingyi)',
+    coach2: coach2 ?? 'the coach assigned to you for Conversation 2 (see the email from Lingyi)',
+    coach1Short: coach1 ?? 'AI Coach 1',
+    coach2Short: coach2 ?? 'AI Coach 2',
     survey1Step: surveyStep(link.survey1, 1),
     survey2Step: surveyStep(link.survey2, 2),
     linkWarning: missing
