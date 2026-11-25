@@ -1,6 +1,6 @@
 # Thank You!
 
-## Study Complete
+## Follow-up testing complete
 
 Thank you for completing the follow-up test! Your feedback is invaluable and will help us improve the AI health coach.
 
