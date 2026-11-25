@@ -250,7 +250,7 @@ export function ComponentController() {
       const funcIndexNumber = trialOrderFuncIndex ? Number(trialOrderFuncIndex) : undefined;
 
       if (indexNumber > currentStep || (indexNumber === currentStep && funcIndexNumber !== undefined && funcIndex !== undefined && funcIndexNumber > Number(decryptIndex(funcIndex)))) {
-        navigate(`/${studyId}/${encryptIndex(indexNumber)}${funcIndexNumber !== undefined ? `/${encryptIndex(funcIndexNumber)}` : ''}`);
+        navigate(`/${studyId}/${encryptIndex(indexNumber)}${funcIndexNumber !== undefined ? `/${encryptIndex(funcIndexNumber)}` : ''}${window.location.search}`);
       }
     }
   }, [answers, clickedPrevious, currentComponent, currentStep, funcIndex, isAnalysis, modes.studyNavigatorEnabled, navigate, participantCompleted, status, studyId]);

@@ -57,6 +57,10 @@ function linkParams() {
   return current;
 }
 
+// reVISit imports this module when the app starts, before any redirect (e.g. forwarding a
+// returning participant to their last page) can change the address, so save the link now.
+linkParams();
+
 function readLink() {
   const params = linkParams();
   const studyIdRaw = params.get('REDCAP_ID')?.trim() ?? '';
