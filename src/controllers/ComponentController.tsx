@@ -78,6 +78,7 @@ export function ComponentController() {
   const sequence = useStoreSelector((state) => state.sequence);
   const modes = useStoreSelector((state) => state.modes);
   const participantCompleted = useStoreSelector((state) => state.completed);
+  const clickedPrevious = useStoreSelector((state) => state.clickedPrevious);
 
   const [searchParams] = useSearchParams();
 
@@ -233,9 +234,11 @@ export function ComponentController() {
 
   const { funcIndex } = useParams();
 
-  // Automatically forward a user to their last completed trial if they are returning to the study
+  // Automatically forward a user to their last completed trial if they are returning to the study.
+  // Skip this once the participant has used the Previous button in this session: otherwise every
+  // page before the furthest completed one bounces them forward, so Previous only works once.
   useEffect(() => {
-    if (status && status.endTime > 0 && !participantCompleted && !isAnalysis && !modes.studyNavigatorEnabled && currentComponent !== 'end' && !currentComponent.startsWith('__') && typeof currentStep === 'number') {
+    if (status && status.endTime > 0 && !clickedPrevious && !participantCompleted && !isAnalysis && !modes.studyNavigatorEnabled && currentComponent !== 'end' && !currentComponent.startsWith('__') && typeof currentStep === 'number') {
       let lastAnsweredTrialOrder = '0';
       Object.values(answers).forEach((a) => {
         if (a.endTime > 0) {
@@ -250,7 +253,7 @@ export function ComponentController() {
         navigate(`/${studyId}/${encryptIndex(indexNumber)}${funcIndexNumber !== undefined ? `/${encryptIndex(funcIndexNumber)}` : ''}`);
       }
     }
-  }, [answers, currentComponent, currentStep, funcIndex, isAnalysis, modes.studyNavigatorEnabled, navigate, participantCompleted, status, studyId]);
+  }, [answers, clickedPrevious, currentComponent, currentStep, funcIndex, isAnalysis, modes.studyNavigatorEnabled, navigate, participantCompleted, status, studyId]);
 
   // We're not using hooks below here, so we can return early if we're at the end of the study.
   // This avoids issues with the component config being undefined for the end of the study.
